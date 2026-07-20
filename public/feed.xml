@@ -2,1059 +2,1059 @@
 <rss version="2.0">
   <channel>
     <title>CW Contest Radar</title>
-    <link>https://example.github.io/cw-contest-radar/</link>
+    <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Mon, 20 Jul 2026 08:29:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 14:33:02 GMT</lastBuildDate>
     <ttl>360</ttl>
     <item>
-      <title>MST — 20 Jul 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
-      <guid isPermaLink="false">mst-20260720T130000Z</guid>
-      <pubDate>Mon, 20 Jul 2026 13:00:00 GMT</pubDate>
-      <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
-    </item>
-    <item>
       <title>MWC — 20 Jul 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260720T163000Z</guid>
       <pubDate>Mon, 20 Jul 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 20 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260720T190000Z</guid>
       <pubDate>Mon, 20 Jul 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 20 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260720T190000Z</guid>
       <pubDate>Mon, 20 Jul 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 21 Jul 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260721T030000Z</guid>
       <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 21 Jul 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260721T193000Z</guid>
       <pubDate>Tue, 21 Jul 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 22 Jul 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260722T114500Z</guid>
       <pubDate>Wed, 22 Jul 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 22 Jul 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260722T130000Z</guid>
       <pubDate>Wed, 22 Jul 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 22 Jul 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260722T170000Z</guid>
       <pubDate>Wed, 22 Jul 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 22 Jul 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260722T180000Z</guid>
       <pubDate>Wed, 22 Jul 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 22 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260722T190000Z</guid>
       <pubDate>Wed, 22 Jul 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 23 Jul 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260723T030000Z</guid>
       <pubDate>Thu, 23 Jul 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 23 Jul 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260723T070000Z</guid>
       <pubDate>Thu, 23 Jul 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 24 Jul 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260724T023000Z</guid>
       <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 24 Jul 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260724T200000Z</guid>
       <pubDate>Fri, 24 Jul 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 27 Jul 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260727T000000Z</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 27 Jul 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260727T130000Z</guid>
       <pubDate>Mon, 27 Jul 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 27 Jul 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260727T163000Z</guid>
       <pubDate>Mon, 27 Jul 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 27 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260727T190000Z</guid>
       <pubDate>Mon, 27 Jul 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 27 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260727T190000Z</guid>
       <pubDate>Mon, 27 Jul 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 28 Jul 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260728T030000Z</guid>
       <pubDate>Tue, 28 Jul 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 28 Jul 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260728T193000Z</guid>
       <pubDate>Tue, 28 Jul 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 29 Jul 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260729T114500Z</guid>
       <pubDate>Wed, 29 Jul 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 29 Jul 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260729T130000Z</guid>
       <pubDate>Wed, 29 Jul 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 29 Jul 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260729T170000Z</guid>
       <pubDate>Wed, 29 Jul 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 29 Jul 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260729T180000Z</guid>
       <pubDate>Wed, 29 Jul 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 29 Jul 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260729T190000Z</guid>
       <pubDate>Wed, 29 Jul 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 30 Jul 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260730T030000Z</guid>
       <pubDate>Thu, 30 Jul 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 30 Jul 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260730T070000Z</guid>
       <pubDate>Thu, 30 Jul 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 31 Jul 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260731T023000Z</guid>
       <pubDate>Fri, 31 Jul 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 31 Jul 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260731T200000Z</guid>
       <pubDate>Fri, 31 Jul 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>NAQP — 1 Aug 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/naqp/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/naqp/</link>
       <guid isPermaLink="false">naqp-20260801T180000Z</guid>
       <pubDate>Sat, 01 Aug 2026 18:00:00 GMT</pubDate>
       <description>North American QSO Party, CW. You send: MATEUSZ. W/VE send name + state/province. As DX outside North America you send just your name. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://www.ncjweb.com/naqp-rules/</description>
     </item>
     <item>
       <title>SST — 3 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260803T000000Z</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 3 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260803T130000Z</guid>
       <pubDate>Mon, 03 Aug 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 3 Aug 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260803T163000Z</guid>
       <pubDate>Mon, 03 Aug 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 3 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260803T190000Z</guid>
       <pubDate>Mon, 03 Aug 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 3 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260803T190000Z</guid>
       <pubDate>Mon, 03 Aug 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 4 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260804T030000Z</guid>
       <pubDate>Tue, 04 Aug 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 4 Aug 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260804T193000Z</guid>
       <pubDate>Tue, 04 Aug 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 5 Aug 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260805T114500Z</guid>
       <pubDate>Wed, 05 Aug 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 5 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260805T130000Z</guid>
       <pubDate>Wed, 05 Aug 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 5 Aug 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260805T170000Z</guid>
       <pubDate>Wed, 05 Aug 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 5 Aug 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260805T180000Z</guid>
       <pubDate>Wed, 05 Aug 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 5 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260805T190000Z</guid>
       <pubDate>Wed, 05 Aug 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 6 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260806T030000Z</guid>
       <pubDate>Thu, 06 Aug 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 6 Aug 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260806T070000Z</guid>
       <pubDate>Thu, 06 Aug 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 7 Aug 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260807T023000Z</guid>
       <pubDate>Fri, 07 Aug 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 7 Aug 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260807T200000Z</guid>
       <pubDate>Fri, 07 Aug 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>WAE CW — 8 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/waecw/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/waecw/</link>
       <guid isPermaLink="false">waecw-20260808T000000Z</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
       <description>WAE DX Contest, CW. You send: 599 001. Send RST + serial. As a European you work DX only, and QTCs (logged traffic) with them are bonus points. Bands: 80, 40, 20, 15, 10m. Rules: https://www.darc.de/der-club/referate/conteste/wae-dx-contest/en/</description>
     </item>
     <item>
       <title>SST — 10 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260810T000000Z</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 10 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260810T130000Z</guid>
       <pubDate>Mon, 10 Aug 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 10 Aug 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260810T163000Z</guid>
       <pubDate>Mon, 10 Aug 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 10 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260810T190000Z</guid>
       <pubDate>Mon, 10 Aug 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 10 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260810T190000Z</guid>
       <pubDate>Mon, 10 Aug 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 11 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260811T030000Z</guid>
       <pubDate>Tue, 11 Aug 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 11 Aug 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260811T193000Z</guid>
       <pubDate>Tue, 11 Aug 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 12 Aug 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260812T114500Z</guid>
       <pubDate>Wed, 12 Aug 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 12 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260812T130000Z</guid>
       <pubDate>Wed, 12 Aug 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 12 Aug 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260812T170000Z</guid>
       <pubDate>Wed, 12 Aug 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 12 Aug 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260812T180000Z</guid>
       <pubDate>Wed, 12 Aug 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 12 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260812T190000Z</guid>
       <pubDate>Wed, 12 Aug 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 13 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260813T030000Z</guid>
       <pubDate>Thu, 13 Aug 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 13 Aug 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260813T070000Z</guid>
       <pubDate>Thu, 13 Aug 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 14 Aug 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260814T023000Z</guid>
       <pubDate>Fri, 14 Aug 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 14 Aug 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260814T200000Z</guid>
       <pubDate>Fri, 14 Aug 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 17 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260817T000000Z</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 17 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260817T130000Z</guid>
       <pubDate>Mon, 17 Aug 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 17 Aug 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260817T163000Z</guid>
       <pubDate>Mon, 17 Aug 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 17 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260817T190000Z</guid>
       <pubDate>Mon, 17 Aug 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 17 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260817T190000Z</guid>
       <pubDate>Mon, 17 Aug 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 18 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260818T030000Z</guid>
       <pubDate>Tue, 18 Aug 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 18 Aug 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260818T193000Z</guid>
       <pubDate>Tue, 18 Aug 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 19 Aug 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260819T114500Z</guid>
       <pubDate>Wed, 19 Aug 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 19 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260819T130000Z</guid>
       <pubDate>Wed, 19 Aug 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 19 Aug 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260819T170000Z</guid>
       <pubDate>Wed, 19 Aug 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 19 Aug 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260819T180000Z</guid>
       <pubDate>Wed, 19 Aug 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 19 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260819T190000Z</guid>
       <pubDate>Wed, 19 Aug 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 20 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260820T030000Z</guid>
       <pubDate>Thu, 20 Aug 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 20 Aug 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260820T070000Z</guid>
       <pubDate>Thu, 20 Aug 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 21 Aug 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260821T023000Z</guid>
       <pubDate>Fri, 21 Aug 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 21 Aug 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260821T200000Z</guid>
       <pubDate>Fri, 21 Aug 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 24 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260824T000000Z</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 24 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260824T130000Z</guid>
       <pubDate>Mon, 24 Aug 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 24 Aug 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260824T163000Z</guid>
       <pubDate>Mon, 24 Aug 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 24 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260824T190000Z</guid>
       <pubDate>Mon, 24 Aug 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 24 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260824T190000Z</guid>
       <pubDate>Mon, 24 Aug 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 25 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260825T030000Z</guid>
       <pubDate>Tue, 25 Aug 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 25 Aug 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260825T193000Z</guid>
       <pubDate>Tue, 25 Aug 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 26 Aug 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260826T114500Z</guid>
       <pubDate>Wed, 26 Aug 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 26 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260826T130000Z</guid>
       <pubDate>Wed, 26 Aug 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 26 Aug 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260826T170000Z</guid>
       <pubDate>Wed, 26 Aug 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 26 Aug 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260826T180000Z</guid>
       <pubDate>Wed, 26 Aug 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 26 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260826T190000Z</guid>
       <pubDate>Wed, 26 Aug 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 27 Aug 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260827T030000Z</guid>
       <pubDate>Thu, 27 Aug 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 27 Aug 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260827T070000Z</guid>
       <pubDate>Thu, 27 Aug 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 28 Aug 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260828T023000Z</guid>
       <pubDate>Fri, 28 Aug 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 28 Aug 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260828T200000Z</guid>
       <pubDate>Fri, 28 Aug 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 31 Aug 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260831T000000Z</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 31 Aug 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260831T130000Z</guid>
       <pubDate>Mon, 31 Aug 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 31 Aug 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260831T163000Z</guid>
       <pubDate>Mon, 31 Aug 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 31 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260831T190000Z</guid>
       <pubDate>Mon, 31 Aug 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 31 Aug 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260831T190000Z</guid>
       <pubDate>Mon, 31 Aug 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 1 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260901T030000Z</guid>
       <pubDate>Tue, 01 Sep 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 1 Sep 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260901T193000Z</guid>
       <pubDate>Tue, 01 Sep 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 2 Sep 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260902T114500Z</guid>
       <pubDate>Wed, 02 Sep 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 2 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260902T130000Z</guid>
       <pubDate>Wed, 02 Sep 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 2 Sep 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260902T170000Z</guid>
       <pubDate>Wed, 02 Sep 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 2 Sep 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260902T180000Z</guid>
       <pubDate>Wed, 02 Sep 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 2 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260902T190000Z</guid>
       <pubDate>Wed, 02 Sep 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 3 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260903T030000Z</guid>
       <pubDate>Thu, 03 Sep 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 3 Sep 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260903T070000Z</guid>
       <pubDate>Thu, 03 Sep 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 4 Sep 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260904T023000Z</guid>
       <pubDate>Fri, 04 Sep 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 4 Sep 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260904T200000Z</guid>
       <pubDate>Fri, 04 Sep 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>CW Open — 5 Sep 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwopen/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwopen/</link>
       <guid isPermaLink="false">cwopen-20260905T000000Z</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
       <description>CW Open. You send: 001 MATEUSZ. Send serial + name. Three separate 4-hour sessions, each scored on its own. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://cwops.org/cw-open/</description>
     </item>
     <item>
       <title>CW Open — 5 Sep 1200Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwopen/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwopen/</link>
       <guid isPermaLink="false">cwopen-20260905T120000Z</guid>
       <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
       <description>CW Open. You send: 001 MATEUSZ. Send serial + name. Three separate 4-hour sessions, each scored on its own. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://cwops.org/cw-open/</description>
     </item>
     <item>
       <title>CW Open — 5 Sep 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwopen/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwopen/</link>
       <guid isPermaLink="false">cwopen-20260905T200000Z</guid>
       <pubDate>Sat, 05 Sep 2026 20:00:00 GMT</pubDate>
       <description>CW Open. You send: 001 MATEUSZ. Send serial + name. Three separate 4-hour sessions, each scored on its own. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://cwops.org/cw-open/</description>
     </item>
     <item>
       <title>SST — 7 Sep 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260907T000000Z</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 7 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260907T130000Z</guid>
       <pubDate>Mon, 07 Sep 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 7 Sep 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260907T163000Z</guid>
       <pubDate>Mon, 07 Sep 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 7 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260907T190000Z</guid>
       <pubDate>Mon, 07 Sep 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 7 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260907T190000Z</guid>
       <pubDate>Mon, 07 Sep 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 8 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260908T030000Z</guid>
       <pubDate>Tue, 08 Sep 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 8 Sep 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260908T193000Z</guid>
       <pubDate>Tue, 08 Sep 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 9 Sep 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260909T114500Z</guid>
       <pubDate>Wed, 09 Sep 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 9 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260909T130000Z</guid>
       <pubDate>Wed, 09 Sep 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 9 Sep 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260909T170000Z</guid>
       <pubDate>Wed, 09 Sep 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 9 Sep 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260909T180000Z</guid>
       <pubDate>Wed, 09 Sep 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 9 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260909T190000Z</guid>
       <pubDate>Wed, 09 Sep 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 10 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260910T030000Z</guid>
       <pubDate>Thu, 10 Sep 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 10 Sep 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260910T070000Z</guid>
       <pubDate>Thu, 10 Sep 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 11 Sep 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260911T023000Z</guid>
       <pubDate>Fri, 11 Sep 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 11 Sep 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260911T200000Z</guid>
       <pubDate>Fri, 11 Sep 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 14 Sep 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260914T000000Z</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 14 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260914T130000Z</guid>
       <pubDate>Mon, 14 Sep 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 14 Sep 1630Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260914T163000Z</guid>
       <pubDate>Mon, 14 Sep 2026 16:30:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 14 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260914T190000Z</guid>
       <pubDate>Mon, 14 Sep 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>MWC — 14 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mwc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
       <guid isPermaLink="false">mwc-20260914T190000Z</guid>
       <pubDate>Mon, 14 Sep 2026 19:00:00 GMT</pubDate>
       <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
     <item>
       <title>MST — 15 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260915T030000Z</guid>
       <pubDate>Tue, 15 Sep 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
     </item>
     <item>
       <title>TTC — 15 Sep 1930Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/ttc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
       <guid isPermaLink="false">ttc-20260915T193000Z</guid>
       <pubDate>Tue, 15 Sep 2026 19:30:00 GMT</pubDate>
       <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
     <item>
       <title>AWT — 16 Sep 1145Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/awt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
       <guid isPermaLink="false">awt-20260916T114500Z</guid>
       <pubDate>Wed, 16 Sep 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
     </item>
     <item>
       <title>CWT — 16 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260916T130000Z</guid>
       <pubDate>Wed, 16 Sep 2026 13:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>MT40 — 16 Sep 1700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt40/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
       <guid isPermaLink="false">mt40-20260916T170000Z</guid>
       <pubDate>Wed, 16 Sep 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>MT80 — 16 Sep 1800Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mt80/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
       <guid isPermaLink="false">mt80-20260916T180000Z</guid>
       <pubDate>Wed, 16 Sep 2026 18:00:00 GMT</pubDate>
       <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
     </item>
     <item>
       <title>CWT — 16 Sep 1900Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260916T190000Z</guid>
       <pubDate>Wed, 16 Sep 2026 19:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 17 Sep 0300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260917T030000Z</guid>
       <pubDate>Thu, 17 Sep 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>CWT — 17 Sep 0700Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/cwt/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260917T070000Z</guid>
       <pubDate>Thu, 17 Sep 2026 07:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
     <item>
       <title>NS — 18 Sep 0230Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/nccc/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
       <guid isPermaLink="false">nccc-20260918T023000Z</guid>
       <pubDate>Fri, 18 Sep 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
     </item>
     <item>
       <title>SST — 18 Sep 2000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260918T200000Z</guid>
       <pubDate>Fri, 18 Sep 2026 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>SST — 21 Sep 0000Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/sst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20260921T000000Z</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
     <item>
       <title>MST — 21 Sep 1300Z</title>
-      <link>https://example.github.io/cw-contest-radar/contests/mst/</link>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
       <guid isPermaLink="false">mst-20260921T130000Z</guid>
       <pubDate>Mon, 21 Sep 2026 13:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
+    </item>
+    <item>
+      <title>MWC — 21 Sep 1630Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
+      <guid isPermaLink="false">mwc-20260921T163000Z</guid>
+      <pubDate>Mon, 21 Sep 2026 16:30:00 GMT</pubDate>
+      <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 40, 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
   </channel>
 </rss>
