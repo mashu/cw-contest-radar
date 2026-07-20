@@ -1,0 +1,34 @@
+CWops Mini-CWT Test: 1300Z-1400Z, Jul 22 and 1900Z-2000Z, Jul 22 and 0300Z-0400Z, Jul 23 and 0700Z-0800Z, Jul 23
+   Geographic Focus: Worldwide
+   Mode: CW
+   Bands: 160, 80, 40, 20, 15, 10m
+   Exchange: Name + Member No. (or, for non-members, Name + (state/province/country))
+   Find rules at: https://cwops.org/cwops-tests/
+
+ICWC Medium Speed Test: 1300Z-1400Z, Jul 20
+   Geographic Focus: Worldwide
+   Mode: CW
+   Bands: 80, 40, 20m
+   Exchange: Name + QSO No.
+   Find rules at: https://icwc.uk/mst.html
+
+K1USN Slow Speed Test: 0000Z-0100Z, Jul 20
+   Geographic Focus: Worldwide
+   Mode: CW
+   Bands: 160, 80, 40, 20m
+   Exchange: Name + (state/province/country)
+   Find rules at: http://www.k1usn.com/sst.html
+
+OK1WC Memorial: 1630Z-1729Z, Jul 20
+   Geographic Focus: Worldwide
+   Mode: CW
+   Bands: 80, 40m
+   Exchange: RST + Serial No.
+   Find rules at: https://memorial-ok1wc.cz/
+
+NAC RTTY: 1700Z-2100Z, Jul 21
+   Geographic Focus: Scandinavia
+   Mode: RTTY
+   Bands: 80, 40, 20, 15, 10m
+   Exchange: RST + Serial No.
+   Find rules at: http://nrau.net/

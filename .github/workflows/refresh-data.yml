@@ -1,0 +1,43 @@
+name: Refresh contest data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pull WA7BNM calendar + rebuild feeds
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: npm run data
+
+      - name: Commit if changed
+        run: |
+          git config user.name "contest-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/contests.json public/feed.xml public/cw-contests.ics
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "data: refresh contest feed"
+            git push
+          fi

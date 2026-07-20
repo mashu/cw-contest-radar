@@ -1,0 +1,28 @@
+{
+  "name": "cw-contest-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A CW contest radar for amateur radio operators — see what CW contests are on the air now, on any date, and exactly how to answer them.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "tsx scripts/test-engine.ts",
+    "refresh": "tsx scripts/refresh.ts",
+    "build-feeds": "tsx scripts/build-feeds.ts",
+    "data": "npm run refresh && npm run build-feeds"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "tsx": "4.16.2",
+    "typescript": "5.5.4"
+  }
+}

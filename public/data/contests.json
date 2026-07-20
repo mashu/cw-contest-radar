@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-20T07:33:00.976Z",
+  "source": "sample:scripts/sample-weeklycal.txt",
+  "items": [
+    {
+      "name": "CWops Mini-CWT Test",
+      "time": "1300Z-1400Z, Jul 22 and 1900Z-2000Z, Jul 22 and 0300Z-0400Z, Jul 23 and 0700Z-0800Z, Jul 23",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20, 15, 10m",
+      "exchange": "Name + Member No. (or, for non-members, Name + (state/province/country))",
+      "cw": true,
+      "rules": "https://cwops.org/cwops-tests/"
+    },
+    {
+      "name": "ICWC Medium Speed Test",
+      "time": "1300Z-1400Z, Jul 20",
+      "mode": "CW",
+      "bands": "80, 40, 20m",
+      "exchange": "Name + QSO No.",
+      "cw": true,
+      "rules": "https://icwc.uk/mst.html"
+    },
+    {
+      "name": "K1USN Slow Speed Test",
+      "time": "0000Z-0100Z, Jul 20",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20m",
+      "exchange": "Name + (state/province/country)",
+      "cw": true,
+      "rules": "http://www.k1usn.com/sst.html"
+    },
+    {
+      "name": "OK1WC Memorial",
+      "time": "1630Z-1729Z, Jul 20",
+      "mode": "CW",
+      "bands": "80, 40m",
+      "exchange": "RST + Serial No.",
+      "cw": true,
+      "rules": "https://memorial-ok1wc.cz/"
+    }
+  ]
+}
