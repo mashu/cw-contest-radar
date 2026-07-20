@@ -57,9 +57,15 @@ function Card({ e, station, now }: { e: LiveEntry; station: Station; now: Date }
           ? `ends ${relative(e.instance.end, now)}`
           : `${dateLabel(e.instance.start)} · ${relative(e.instance.start, now)}`}
         {"  ·  "}
-        <Link href={`/contests/${e.contest.id}/`} className="inline-link">
-          details →
-        </Link>
+        {e.contest.id.startsWith("cal-") ? (
+          <a href={e.contest.rules} className="inline-link" target="_blank" rel="noreferrer">
+            rules ↗
+          </a>
+        ) : (
+          <Link href={`/contests/${e.contest.id}/`} className="inline-link">
+            details →
+          </Link>
+        )}
       </div>
     </div>
   );

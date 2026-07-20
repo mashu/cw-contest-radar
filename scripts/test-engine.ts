@@ -50,6 +50,11 @@ console.log("  CWT sessions this week:", cwt.map((i) => iso(i.start)).join(", ")
 eq("CWT count Mon..Fri", cwt.length, 4);
 eq("CWT first is Wed 1300Z", iso(cwt[0]?.start), "2026-07-22T13:00Z");
 
+const ttc = around("ttc", "2026-07-20", "2026-07-22");
+eq("TTC Tue count", ttc.length, 1);
+eq("TTC Tue 1930Z", iso(ttc[0]?.start), "2026-07-21T19:30Z");
+eq("TTC exchange", renderExchange(contestById("ttc")!, DEFAULT_STATION), "599 001");
+
 const mwc = around("mwc", "2026-07-20T00:00:00Z", "2026-07-20T23:59:59Z");
 eq("MWC Mon two sessions", mwc.length, 2);
 eq("MWC session1 40+80", mwc[0]?.bands.join("+"), "40+80");

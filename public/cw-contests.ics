@@ -7,7 +7,7 @@ X-WR-CALNAME:CW Contests
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:mst-20260720T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260720T130000Z
 DTEND:20260720T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -16,7 +16,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260720T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260720T163000Z
 DTEND:20260720T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -25,7 +25,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260720T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260720T190000Z
 DTEND:20260720T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -34,7 +34,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260720T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260720T190000Z
 DTEND:20260720T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -43,7 +43,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260721T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260721T030000Z
 DTEND:20260721T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -51,8 +51,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260721T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260721T193000Z
+DTEND:20260721T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260722T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260722T114500Z
+DTEND:20260722T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260722T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260722T130000Z
 DTEND:20260722T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -60,8 +78,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260722T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260722T170000Z
+DTEND:20260722T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260722T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260722T180000Z
+DTEND:20260722T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260722T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260722T190000Z
 DTEND:20260722T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -70,7 +106,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260723T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260723T030000Z
 DTEND:20260723T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -79,7 +115,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260723T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260723T070000Z
 DTEND:20260723T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -87,8 +123,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260724T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260724T023000Z
+DTEND:20260724T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260724T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260724T200000Z
 DTEND:20260724T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -97,7 +142,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260727T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260727T000000Z
 DTEND:20260727T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -106,7 +151,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260727T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260727T130000Z
 DTEND:20260727T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -115,7 +160,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260727T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260727T163000Z
 DTEND:20260727T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -124,7 +169,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260727T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260727T190000Z
 DTEND:20260727T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -133,7 +178,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260727T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260727T190000Z
 DTEND:20260727T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -142,7 +187,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260728T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260728T030000Z
 DTEND:20260728T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -150,8 +195,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260728T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260728T193000Z
+DTEND:20260728T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260729T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260729T114500Z
+DTEND:20260729T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260729T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260729T130000Z
 DTEND:20260729T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -159,8 +222,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260729T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260729T170000Z
+DTEND:20260729T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260729T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260729T180000Z
+DTEND:20260729T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260729T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260729T190000Z
 DTEND:20260729T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -169,7 +250,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260730T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260730T030000Z
 DTEND:20260730T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -178,7 +259,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260730T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260730T070000Z
 DTEND:20260730T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -186,8 +267,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260731T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260731T023000Z
+DTEND:20260731T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260731T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260731T200000Z
 DTEND:20260731T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -196,7 +286,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:naqp-20260801T180000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260801T180000Z
 DTEND:20260802T060000Z
 SUMMARY:CW: NAQP (North American QSO Party, CW)
@@ -205,7 +295,7 @@ URL:https://example.github.io/cw-contest-radar/contests/naqp/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260803T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260803T000000Z
 DTEND:20260803T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -214,7 +304,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260803T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260803T130000Z
 DTEND:20260803T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -223,7 +313,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260803T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260803T163000Z
 DTEND:20260803T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -232,7 +322,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260803T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260803T190000Z
 DTEND:20260803T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -241,7 +331,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260803T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260803T190000Z
 DTEND:20260803T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -250,7 +340,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260804T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260804T030000Z
 DTEND:20260804T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -258,8 +348,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260804T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260804T193000Z
+DTEND:20260804T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260805T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260805T114500Z
+DTEND:20260805T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260805T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260805T130000Z
 DTEND:20260805T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -267,8 +375,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260805T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260805T170000Z
+DTEND:20260805T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260805T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260805T180000Z
+DTEND:20260805T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260805T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260805T190000Z
 DTEND:20260805T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -277,7 +403,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260806T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260806T030000Z
 DTEND:20260806T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -286,7 +412,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260806T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260806T070000Z
 DTEND:20260806T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -294,8 +420,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260807T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260807T023000Z
+DTEND:20260807T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260807T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260807T200000Z
 DTEND:20260807T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -304,7 +439,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:waecw-20260808T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260808T000000Z
 DTEND:20260810T000000Z
 SUMMARY:CW: WAE CW (WAE DX Contest, CW)
@@ -313,7 +448,7 @@ URL:https://example.github.io/cw-contest-radar/contests/waecw/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260810T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260810T000000Z
 DTEND:20260810T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -322,7 +457,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260810T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260810T130000Z
 DTEND:20260810T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -331,7 +466,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260810T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260810T163000Z
 DTEND:20260810T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -340,7 +475,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260810T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260810T190000Z
 DTEND:20260810T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -349,7 +484,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260810T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260810T190000Z
 DTEND:20260810T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -358,7 +493,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260811T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260811T030000Z
 DTEND:20260811T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -366,8 +501,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260811T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260811T193000Z
+DTEND:20260811T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260812T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260812T114500Z
+DTEND:20260812T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260812T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260812T130000Z
 DTEND:20260812T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -375,8 +528,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260812T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260812T170000Z
+DTEND:20260812T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260812T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260812T180000Z
+DTEND:20260812T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260812T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260812T190000Z
 DTEND:20260812T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -385,7 +556,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260813T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260813T030000Z
 DTEND:20260813T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -394,7 +565,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260813T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260813T070000Z
 DTEND:20260813T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -402,8 +573,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260814T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260814T023000Z
+DTEND:20260814T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260814T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260814T200000Z
 DTEND:20260814T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -412,7 +592,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260817T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260817T000000Z
 DTEND:20260817T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -421,7 +601,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260817T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260817T130000Z
 DTEND:20260817T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -430,7 +610,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260817T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260817T163000Z
 DTEND:20260817T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -439,7 +619,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260817T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260817T190000Z
 DTEND:20260817T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -448,7 +628,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260817T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260817T190000Z
 DTEND:20260817T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -457,7 +637,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260818T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260818T030000Z
 DTEND:20260818T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -465,8 +645,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260818T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260818T193000Z
+DTEND:20260818T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260819T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260819T114500Z
+DTEND:20260819T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260819T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260819T130000Z
 DTEND:20260819T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -474,8 +672,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260819T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260819T170000Z
+DTEND:20260819T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260819T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260819T180000Z
+DTEND:20260819T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260819T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260819T190000Z
 DTEND:20260819T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -484,7 +700,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260820T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260820T030000Z
 DTEND:20260820T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -493,7 +709,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260820T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260820T070000Z
 DTEND:20260820T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -501,8 +717,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260821T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260821T023000Z
+DTEND:20260821T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260821T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260821T200000Z
 DTEND:20260821T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -511,7 +736,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260824T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260824T000000Z
 DTEND:20260824T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -520,7 +745,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260824T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260824T130000Z
 DTEND:20260824T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -529,7 +754,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260824T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260824T163000Z
 DTEND:20260824T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -538,7 +763,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260824T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260824T190000Z
 DTEND:20260824T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -547,7 +772,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260824T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260824T190000Z
 DTEND:20260824T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -556,7 +781,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260825T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260825T030000Z
 DTEND:20260825T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -564,8 +789,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260825T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260825T193000Z
+DTEND:20260825T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260826T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260826T114500Z
+DTEND:20260826T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260826T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260826T130000Z
 DTEND:20260826T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -573,8 +816,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260826T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260826T170000Z
+DTEND:20260826T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260826T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260826T180000Z
+DTEND:20260826T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260826T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260826T190000Z
 DTEND:20260826T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -583,7 +844,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260827T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260827T030000Z
 DTEND:20260827T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -592,7 +853,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260827T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260827T070000Z
 DTEND:20260827T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -600,8 +861,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260828T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260828T023000Z
+DTEND:20260828T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260828T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260828T200000Z
 DTEND:20260828T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -610,7 +880,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260831T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260831T000000Z
 DTEND:20260831T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -619,7 +889,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260831T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260831T130000Z
 DTEND:20260831T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -628,7 +898,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260831T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260831T163000Z
 DTEND:20260831T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -637,7 +907,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260831T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260831T190000Z
 DTEND:20260831T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -646,7 +916,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260831T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260831T190000Z
 DTEND:20260831T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -655,7 +925,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260901T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260901T030000Z
 DTEND:20260901T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -663,8 +933,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260901T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260901T193000Z
+DTEND:20260901T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260902T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260902T114500Z
+DTEND:20260902T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260902T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260902T130000Z
 DTEND:20260902T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -672,8 +960,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260902T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260902T170000Z
+DTEND:20260902T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260902T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260902T180000Z
+DTEND:20260902T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260902T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260902T190000Z
 DTEND:20260902T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -682,7 +988,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260903T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260903T030000Z
 DTEND:20260903T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -691,7 +997,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260903T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260903T070000Z
 DTEND:20260903T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -699,8 +1005,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260904T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260904T023000Z
+DTEND:20260904T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260904T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260904T200000Z
 DTEND:20260904T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -709,7 +1024,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwopen-20260905T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260905T000000Z
 DTEND:20260905T040000Z
 SUMMARY:CW: CW Open (CW Open)
@@ -718,7 +1033,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwopen/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwopen-20260905T120000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260905T120000Z
 DTEND:20260905T160000Z
 SUMMARY:CW: CW Open (CW Open)
@@ -727,7 +1042,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwopen/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwopen-20260905T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260905T200000Z
 DTEND:20260906T000000Z
 SUMMARY:CW: CW Open (CW Open)
@@ -736,7 +1051,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwopen/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260907T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260907T000000Z
 DTEND:20260907T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -745,7 +1060,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260907T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260907T130000Z
 DTEND:20260907T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -754,7 +1069,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260907T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260907T163000Z
 DTEND:20260907T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -763,7 +1078,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260907T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260907T190000Z
 DTEND:20260907T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -772,7 +1087,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260907T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260907T190000Z
 DTEND:20260907T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -781,7 +1096,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260908T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260908T030000Z
 DTEND:20260908T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -789,8 +1104,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260908T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260908T193000Z
+DTEND:20260908T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260909T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260909T114500Z
+DTEND:20260909T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260909T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260909T130000Z
 DTEND:20260909T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -798,8 +1131,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260909T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260909T170000Z
+DTEND:20260909T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260909T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260909T180000Z
+DTEND:20260909T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260909T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260909T190000Z
 DTEND:20260909T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -808,7 +1159,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260910T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260910T030000Z
 DTEND:20260910T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -817,7 +1168,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260910T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260910T070000Z
 DTEND:20260910T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -825,8 +1176,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260911T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260911T023000Z
+DTEND:20260911T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260911T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260911T200000Z
 DTEND:20260911T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -835,7 +1195,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260914T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260914T000000Z
 DTEND:20260914T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -844,7 +1204,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260914T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260914T130000Z
 DTEND:20260914T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -853,7 +1213,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260914T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260914T163000Z
 DTEND:20260914T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -862,7 +1222,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260914T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260914T190000Z
 DTEND:20260914T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -871,7 +1231,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260914T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260914T190000Z
 DTEND:20260914T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -880,7 +1240,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260915T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260915T030000Z
 DTEND:20260915T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -888,8 +1248,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260915T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260915T193000Z
+DTEND:20260915T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260916T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260916T114500Z
+DTEND:20260916T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260916T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260916T130000Z
 DTEND:20260916T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -897,8 +1275,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260916T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260916T170000Z
+DTEND:20260916T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260916T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260916T180000Z
+DTEND:20260916T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260916T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260916T190000Z
 DTEND:20260916T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -907,7 +1303,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260917T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260917T030000Z
 DTEND:20260917T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -916,7 +1312,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260917T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260917T070000Z
 DTEND:20260917T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -924,8 +1320,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260918T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260918T023000Z
+DTEND:20260918T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260918T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260918T200000Z
 DTEND:20260918T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -934,7 +1339,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260921T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260921T000000Z
 DTEND:20260921T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -943,7 +1348,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260921T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260921T130000Z
 DTEND:20260921T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -952,7 +1357,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260921T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260921T163000Z
 DTEND:20260921T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -961,7 +1366,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260921T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260921T190000Z
 DTEND:20260921T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -970,7 +1375,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260921T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260921T190000Z
 DTEND:20260921T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -979,7 +1384,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260922T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260922T030000Z
 DTEND:20260922T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -987,8 +1392,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260922T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260922T193000Z
+DTEND:20260922T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260923T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260923T114500Z
+DTEND:20260923T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260923T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260923T130000Z
 DTEND:20260923T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -996,8 +1419,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260923T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260923T170000Z
+DTEND:20260923T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260923T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260923T180000Z
+DTEND:20260923T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260923T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260923T190000Z
 DTEND:20260923T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1006,7 +1447,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260924T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260924T030000Z
 DTEND:20260924T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1015,7 +1456,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20260924T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260924T070000Z
 DTEND:20260924T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1023,8 +1464,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20260925T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260925T023000Z
+DTEND:20260925T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20260925T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260925T200000Z
 DTEND:20260925T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1033,7 +1483,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20260928T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260928T000000Z
 DTEND:20260928T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1042,7 +1492,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260928T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260928T130000Z
 DTEND:20260928T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1051,7 +1501,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260928T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260928T163000Z
 DTEND:20260928T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1060,7 +1510,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260928T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260928T190000Z
 DTEND:20260928T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1069,7 +1519,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20260928T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260928T190000Z
 DTEND:20260928T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1078,7 +1528,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20260929T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260929T030000Z
 DTEND:20260929T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1086,8 +1536,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20260929T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260929T193000Z
+DTEND:20260929T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20260930T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260930T114500Z
+DTEND:20260930T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260930T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260930T130000Z
 DTEND:20260930T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1095,8 +1563,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20260930T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260930T170000Z
+DTEND:20260930T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20260930T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20260930T180000Z
+DTEND:20260930T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20260930T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20260930T190000Z
 DTEND:20260930T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1105,7 +1591,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261001T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261001T030000Z
 DTEND:20261001T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1114,7 +1600,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261001T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261001T070000Z
 DTEND:20261001T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1122,8 +1608,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261002T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261002T023000Z
+DTEND:20261002T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261002T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261002T200000Z
 DTEND:20261002T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1132,7 +1627,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261005T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261005T000000Z
 DTEND:20261005T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1141,7 +1636,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261005T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261005T130000Z
 DTEND:20261005T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1150,7 +1645,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261005T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261005T163000Z
 DTEND:20261005T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1159,7 +1654,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261005T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261005T190000Z
 DTEND:20261005T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1168,7 +1663,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261005T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261005T190000Z
 DTEND:20261005T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1177,7 +1672,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261006T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261006T030000Z
 DTEND:20261006T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1185,8 +1680,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261006T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261006T193000Z
+DTEND:20261006T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261007T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261007T114500Z
+DTEND:20261007T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261007T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261007T130000Z
 DTEND:20261007T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1194,8 +1707,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261007T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261007T170000Z
+DTEND:20261007T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261007T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261007T180000Z
+DTEND:20261007T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261007T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261007T190000Z
 DTEND:20261007T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1204,7 +1735,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261008T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261008T030000Z
 DTEND:20261008T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1213,7 +1744,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261008T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261008T070000Z
 DTEND:20261008T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1221,8 +1752,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261009T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261009T023000Z
+DTEND:20261009T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261009T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261009T200000Z
 DTEND:20261009T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1231,7 +1771,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261012T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261012T000000Z
 DTEND:20261012T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1240,7 +1780,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261012T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261012T130000Z
 DTEND:20261012T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1249,7 +1789,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261012T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261012T163000Z
 DTEND:20261012T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1258,7 +1798,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261012T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261012T190000Z
 DTEND:20261012T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1267,7 +1807,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261012T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261012T190000Z
 DTEND:20261012T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1276,7 +1816,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261013T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261013T030000Z
 DTEND:20261013T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1284,8 +1824,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261013T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261013T193000Z
+DTEND:20261013T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261014T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261014T114500Z
+DTEND:20261014T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261014T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261014T130000Z
 DTEND:20261014T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1293,8 +1851,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261014T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261014T170000Z
+DTEND:20261014T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261014T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261014T180000Z
+DTEND:20261014T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261014T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261014T190000Z
 DTEND:20261014T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1303,7 +1879,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261015T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261015T030000Z
 DTEND:20261015T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1312,7 +1888,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261015T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261015T070000Z
 DTEND:20261015T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1320,8 +1896,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261016T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261016T023000Z
+DTEND:20261016T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261016T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261016T200000Z
 DTEND:20261016T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1330,7 +1915,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261019T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261019T000000Z
 DTEND:20261019T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1339,7 +1924,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261019T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261019T130000Z
 DTEND:20261019T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1348,7 +1933,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261019T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261019T163000Z
 DTEND:20261019T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1357,7 +1942,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261019T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261019T190000Z
 DTEND:20261019T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1366,7 +1951,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261019T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261019T190000Z
 DTEND:20261019T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1375,7 +1960,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261020T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261020T030000Z
 DTEND:20261020T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1383,8 +1968,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261020T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261020T193000Z
+DTEND:20261020T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261021T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261021T114500Z
+DTEND:20261021T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261021T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261021T130000Z
 DTEND:20261021T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1392,8 +1995,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261021T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261021T170000Z
+DTEND:20261021T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261021T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261021T180000Z
+DTEND:20261021T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261021T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261021T190000Z
 DTEND:20261021T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1402,7 +2023,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261022T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261022T030000Z
 DTEND:20261022T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1411,7 +2032,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261022T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261022T070000Z
 DTEND:20261022T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1419,8 +2040,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261023T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261023T023000Z
+DTEND:20261023T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261023T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261023T200000Z
 DTEND:20261023T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1429,7 +2059,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261026T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261026T000000Z
 DTEND:20261026T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1438,7 +2068,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261026T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261026T130000Z
 DTEND:20261026T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1447,7 +2077,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261026T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261026T163000Z
 DTEND:20261026T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1456,7 +2086,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261026T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261026T190000Z
 DTEND:20261026T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1465,7 +2095,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261026T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261026T190000Z
 DTEND:20261026T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1474,7 +2104,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261027T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261027T030000Z
 DTEND:20261027T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1482,8 +2112,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261027T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261027T193000Z
+DTEND:20261027T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261028T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261028T114500Z
+DTEND:20261028T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261028T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261028T130000Z
 DTEND:20261028T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1491,8 +2139,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261028T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261028T170000Z
+DTEND:20261028T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261028T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261028T180000Z
+DTEND:20261028T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261028T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261028T190000Z
 DTEND:20261028T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1501,7 +2167,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261029T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261029T030000Z
 DTEND:20261029T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1510,7 +2176,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261029T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261029T070000Z
 DTEND:20261029T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1518,8 +2184,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261030T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261030T023000Z
+DTEND:20261030T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261030T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261030T200000Z
 DTEND:20261030T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1528,7 +2203,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261102T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261102T000000Z
 DTEND:20261102T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1537,7 +2212,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261102T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261102T130000Z
 DTEND:20261102T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1546,7 +2221,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261102T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261102T163000Z
 DTEND:20261102T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1555,7 +2230,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261102T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261102T190000Z
 DTEND:20261102T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1564,7 +2239,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261102T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261102T190000Z
 DTEND:20261102T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1573,7 +2248,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261103T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261103T030000Z
 DTEND:20261103T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1581,8 +2256,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261103T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261103T193000Z
+DTEND:20261103T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261104T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261104T114500Z
+DTEND:20261104T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261104T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261104T130000Z
 DTEND:20261104T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1590,8 +2283,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261104T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261104T170000Z
+DTEND:20261104T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261104T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261104T180000Z
+DTEND:20261104T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261104T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261104T190000Z
 DTEND:20261104T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1600,7 +2311,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261105T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261105T030000Z
 DTEND:20261105T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1609,7 +2320,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261105T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261105T070000Z
 DTEND:20261105T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1617,8 +2328,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261106T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261106T023000Z
+DTEND:20261106T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261106T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261106T200000Z
 DTEND:20261106T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1627,7 +2347,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261109T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261109T000000Z
 DTEND:20261109T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1636,7 +2356,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261109T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261109T130000Z
 DTEND:20261109T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1645,7 +2365,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261109T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261109T163000Z
 DTEND:20261109T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1654,7 +2374,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261109T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261109T190000Z
 DTEND:20261109T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1663,7 +2383,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261109T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261109T190000Z
 DTEND:20261109T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1672,7 +2392,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261110T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261110T030000Z
 DTEND:20261110T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1680,8 +2400,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261110T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261110T193000Z
+DTEND:20261110T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261111T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261111T114500Z
+DTEND:20261111T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261111T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261111T130000Z
 DTEND:20261111T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1689,8 +2427,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261111T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261111T170000Z
+DTEND:20261111T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261111T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261111T180000Z
+DTEND:20261111T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261111T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261111T190000Z
 DTEND:20261111T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1699,7 +2455,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261112T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261112T030000Z
 DTEND:20261112T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1708,7 +2464,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261112T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261112T070000Z
 DTEND:20261112T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1716,8 +2472,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261113T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261113T023000Z
+DTEND:20261113T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261113T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261113T200000Z
 DTEND:20261113T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1726,7 +2491,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261116T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261116T000000Z
 DTEND:20261116T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1735,7 +2500,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261116T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261116T130000Z
 DTEND:20261116T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1744,7 +2509,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261116T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261116T163000Z
 DTEND:20261116T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1753,7 +2518,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261116T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261116T190000Z
 DTEND:20261116T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1762,7 +2527,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261116T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261116T190000Z
 DTEND:20261116T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1771,7 +2536,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261117T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261117T030000Z
 DTEND:20261117T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1779,8 +2544,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261117T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261117T193000Z
+DTEND:20261117T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261118T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261118T114500Z
+DTEND:20261118T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261118T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261118T130000Z
 DTEND:20261118T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1788,8 +2571,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261118T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261118T170000Z
+DTEND:20261118T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261118T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261118T180000Z
+DTEND:20261118T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261118T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261118T190000Z
 DTEND:20261118T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1798,7 +2599,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261119T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261119T030000Z
 DTEND:20261119T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1807,7 +2608,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261119T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261119T070000Z
 DTEND:20261119T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1815,8 +2616,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261120T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261120T023000Z
+DTEND:20261120T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261120T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261120T200000Z
 DTEND:20261120T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1825,7 +2635,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261123T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261123T000000Z
 DTEND:20261123T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1834,7 +2644,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261123T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261123T130000Z
 DTEND:20261123T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1843,7 +2653,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261123T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261123T163000Z
 DTEND:20261123T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1852,7 +2662,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261123T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261123T190000Z
 DTEND:20261123T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1861,7 +2671,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261123T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261123T190000Z
 DTEND:20261123T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1870,7 +2680,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261124T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261124T030000Z
 DTEND:20261124T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1878,8 +2688,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261124T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261124T193000Z
+DTEND:20261124T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261125T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261125T114500Z
+DTEND:20261125T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261125T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261125T130000Z
 DTEND:20261125T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1887,8 +2715,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261125T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261125T170000Z
+DTEND:20261125T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261125T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261125T180000Z
+DTEND:20261125T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261125T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261125T190000Z
 DTEND:20261125T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1897,7 +2743,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261126T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261126T030000Z
 DTEND:20261126T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1906,7 +2752,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261126T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261126T070000Z
 DTEND:20261126T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1914,8 +2760,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261127T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261127T023000Z
+DTEND:20261127T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261127T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261127T200000Z
 DTEND:20261127T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1924,7 +2779,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:cqww-20261128T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261128T000000Z
 DTEND:20261130T000000Z
 SUMMARY:CW: CQWW (CQ World-Wide DX Contest, CW)
@@ -1933,7 +2788,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cqww/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261130T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261130T000000Z
 DTEND:20261130T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -1942,7 +2797,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261130T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261130T130000Z
 DTEND:20261130T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1951,7 +2806,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261130T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261130T163000Z
 DTEND:20261130T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1960,7 +2815,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261130T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261130T190000Z
 DTEND:20261130T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1969,7 +2824,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261130T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261130T190000Z
 DTEND:20261130T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -1978,7 +2833,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261201T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261201T030000Z
 DTEND:20261201T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -1986,8 +2841,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261201T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261201T193000Z
+DTEND:20261201T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261202T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261202T114500Z
+DTEND:20261202T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261202T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261202T130000Z
 DTEND:20261202T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -1995,8 +2868,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261202T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261202T170000Z
+DTEND:20261202T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261202T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261202T180000Z
+DTEND:20261202T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261202T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261202T190000Z
 DTEND:20261202T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2005,7 +2896,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261203T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261203T030000Z
 DTEND:20261203T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2014,7 +2905,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261203T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261203T070000Z
 DTEND:20261203T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2022,8 +2913,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261204T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261204T023000Z
+DTEND:20261204T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261204T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261204T200000Z
 DTEND:20261204T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -2032,7 +2932,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:arrl160-20261204T220000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261204T220000Z
 DTEND:20261206T160000Z
 SUMMARY:CW: ARRL 160 (ARRL 160-Meter Contest)
@@ -2041,7 +2941,7 @@ URL:https://example.github.io/cw-contest-radar/contests/arrl160/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261207T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261207T000000Z
 DTEND:20261207T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -2050,7 +2950,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261207T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261207T130000Z
 DTEND:20261207T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2059,7 +2959,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261207T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261207T163000Z
 DTEND:20261207T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -2068,7 +2968,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261207T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261207T190000Z
 DTEND:20261207T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2077,7 +2977,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261207T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261207T190000Z
 DTEND:20261207T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -2086,7 +2986,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261208T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261208T030000Z
 DTEND:20261208T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2094,8 +2994,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261208T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261208T193000Z
+DTEND:20261208T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261209T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261209T114500Z
+DTEND:20261209T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261209T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261209T130000Z
 DTEND:20261209T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2103,8 +3021,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261209T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261209T170000Z
+DTEND:20261209T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261209T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261209T180000Z
+DTEND:20261209T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261209T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261209T190000Z
 DTEND:20261209T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2113,7 +3049,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261210T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261210T030000Z
 DTEND:20261210T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2122,7 +3058,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261210T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261210T070000Z
 DTEND:20261210T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2130,8 +3066,17 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:nccc-20261211T023000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261211T023000Z
+DTEND:20261211T030000Z
+SUMMARY:CW: NS (NCCC Sprint)
+DESCRIPTION:NCCC Sprint\nYou send: 001 MATEUSZ R\nSend serial + name + QTH (state/province/country). Very short 30-minute sprint.\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://ncccsprint.com/
+URL:https://example.github.io/cw-contest-radar/contests/nccc/
+END:VEVENT
+BEGIN:VEVENT
 UID:sst-20261211T200000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261211T200000Z
 DTEND:20261211T210000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -2140,7 +3085,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:sst-20261214T000000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261214T000000Z
 DTEND:20261214T010000Z
 SUMMARY:CW: SST (K1USN Slow Speed Test)
@@ -2149,7 +3094,7 @@ URL:https://example.github.io/cw-contest-radar/contests/sst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261214T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261214T130000Z
 DTEND:20261214T140000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2158,7 +3103,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261214T163000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261214T163000Z
 DTEND:20261214T172900Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -2167,7 +3112,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261214T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261214T190000Z
 DTEND:20261214T200000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2176,7 +3121,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
 UID:mwc-20261214T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261214T190000Z
 DTEND:20261214T203000Z
 SUMMARY:CW: MWC (OK1WC Memorial (MWC))
@@ -2185,7 +3130,7 @@ URL:https://example.github.io/cw-contest-radar/contests/mwc/
 END:VEVENT
 BEGIN:VEVENT
 UID:mst-20261215T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261215T030000Z
 DTEND:20261215T040000Z
 SUMMARY:CW: MST (ICWC Medium Speed Test)
@@ -2193,8 +3138,26 @@ DESCRIPTION:ICWC Medium Speed Test\nYou send: MATEUSZ 001\nSend name + serial nu
 URL:https://example.github.io/cw-contest-radar/contests/mst/
 END:VEVENT
 BEGIN:VEVENT
+UID:ttc-20261215T193000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261215T193000Z
+DTEND:20261215T203000Z
+SUMMARY:CW: TTC (Tuesday's Telegraphy Contest)
+DESCRIPTION:Tuesday's Telegraphy Contest\nYou send: 599 001\nSend RST + serial. Same station may be worked again each 15-minute period (4 periods per hour).\nBands: 80, 40m\nRules: https://spcwc.pl/ttc/rules/en
+URL:https://example.github.io/cw-contest-radar/contests/ttc/
+END:VEVENT
+BEGIN:VEVENT
+UID:awt-20261216T114500Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261216T114500Z
+DTEND:20261216T130000Z
+SUMMARY:CW: AWT (A1Club AWT)
+DESCRIPTION:A1Club AWT\nYou send: 599 MATEUSZ\nSend RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm).\nBands: 160, 80, 40, 20, 15, 10m\nRules: https://a1club.org/contest/awt/
+URL:https://example.github.io/cw-contest-radar/contests/awt/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261216T130000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261216T130000Z
 DTEND:20261216T140000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2202,8 +3165,26 @@ DESCRIPTION:CWops Mini-CWT Test\nYou send: MATEUSZ SO\nNo RST. CWops members sen
 URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
+UID:mt40-20261216T170000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261216T170000Z
+DTEND:20261216T175900Z
+SUMMARY:CW: MT40 (Mini-Test 40)
+DESCRIPTION:Mini-Test 40\nYou send: 599 001\n40m only. RST + serial. Same station once per 10-minute period.\nBands: 40m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt40/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt80-20261216T180000Z@cw-contest-radar
+DTSTAMP:20260720T082947Z
+DTSTART:20261216T180000Z
+DTEND:20261216T185900Z
+SUMMARY:CW: MT80 (Mini-Test 80)
+DESCRIPTION:Mini-Test 80\nYou send: 599 001\n80m only. RST + serial. Same station once per 10-minute period.\nBands: 80m\nRules: http://minitest.narod.ru/
+URL:https://example.github.io/cw-contest-radar/contests/mt80/
+END:VEVENT
+BEGIN:VEVENT
 UID:cwt-20261216T190000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261216T190000Z
 DTEND:20261216T200000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2212,7 +3193,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261217T030000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261217T030000Z
 DTEND:20261217T040000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)
@@ -2221,7 +3202,7 @@ URL:https://example.github.io/cw-contest-radar/contests/cwt/
 END:VEVENT
 BEGIN:VEVENT
 UID:cwt-20261217T070000Z@cw-contest-radar
-DTSTAMP:20260720T073306Z
+DTSTAMP:20260720T082947Z
 DTSTART:20261217T070000Z
 DTEND:20261217T080000Z
 SUMMARY:CW: CWT (CWops Mini-CWT Test)

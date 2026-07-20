@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "tsx scripts/test-engine.ts",
+    "test": "tsx scripts/test-engine.ts && tsx scripts/test-feed.ts",
     "refresh": "tsx scripts/refresh.ts",
     "build-feeds": "tsx scripts/build-feeds.ts",
     "data": "npm run refresh && npm run build-feeds"

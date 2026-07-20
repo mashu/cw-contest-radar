@@ -11,6 +11,7 @@ import {
   renderExchange,
 } from "@/lib/station";
 import { loadLiveFeed } from "@/lib/feed";
+import { allContestsWithExtras, calendarExtras } from "@/lib/calendarMerge";
 import type { Contest, Instance, InstanceStatus, LiveFeed, Station } from "@/lib/types";
 import {
   dateInputValue,
@@ -73,13 +74,20 @@ export function Dashboard() {
   }, []);
 
   const nowKey = now ? dayKey(now) : "";
+  const extras = useMemo(() => calendarExtras(feed), [feed]);
+  const catalog = useMemo(() => allContestsWithExtras(extras.contests), [extras]);
+  const byId = useMemo(() => {
+    const m = new Map<string, Contest>();
+    for (const c of catalog) m.set(c.id, c);
+    return m;
+  }, [catalog]);
+  const lookup = (id: string) => byId.get(id) ?? contestById(id);
 
-  // Expand every contest once across a wide window; recompute daily.
   const { allInstances, byContest } = useMemo(() => {
     if (!now) return { allInstances: [] as Instance[], byContest: new Map<string, Instance[]>() };
     const from = new Date(startOfUTCDay(now).getTime() - 2 * DAY);
     const to = new Date(startOfUTCDay(now).getTime() + 71 * DAY);
-    const all = expandAll(CONTESTS, from, to);
+    const all = [...expandAll(CONTESTS, from, to), ...extras.instances];
     const map = new Map<string, Instance[]>();
     for (const i of all) {
       const arr = map.get(i.contestId) ?? [];
@@ -87,7 +95,7 @@ export function Dashboard() {
       map.set(i.contestId, arr);
     }
     return { allInstances: all, byContest: map };
-  }, [nowKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [nowKey, extras]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!now || !dateStr) {
     return (
@@ -101,15 +109,13 @@ export function Dashboard() {
   const selectedDate = parseDateInput(dateStr);
   const isToday = dayKey(selectedDate) === dayKey(now);
   const dayStart = selectedDate.getTime();
-  const dayEnd = dayStart + DAY;
 
-  // ---- filters ----
   const freqMhz = parseFreq(freq);
   const band = bandFor(freqMhz);
   const bandWarn = !!freq && !band;
   const bandKey = band && !band.warc ? band.key : null;
   const heardTrim = heard.trim();
-  const heardMatches = heardTrim ? CONTESTS.filter((c) => matchesHeard(c, heard)) : [];
+  const heardMatches = heardTrim ? catalog.filter((c) => matchesHeard(c, heard)) : [];
   const heardHint =
     heardTrim && heardMatches.length
       ? heardMatches.map((c) => c.short).slice(0, 3).join(", ")
@@ -121,21 +127,28 @@ export function Dashboard() {
     const f = bandKey ? c.bands.includes(bandKey) : true;
     return h && f;
   };
-  const matchSet = new Set(CONTESTS.filter(contestMatches).map((c) => c.id));
+  const matchSet = new Set(catalog.filter(contestMatches).map((c) => c.id));
 
-  // ---- on air / scheduled ----
-  const dayInsts = allInstances.filter((i) => i.end.getTime() > dayStart && i.start.getTime() < dayEnd);
-  const toEntry = (i: Instance): LiveEntry => ({
-    contest: contestById(i.contestId)!,
-    instance: i,
-    status: statusOf(i, now),
-  });
+  const dayInsts = allInstances.filter(
+    (i) => i.end.getTime() > dayStart && i.start.getTime() < dayStart + DAY
+  );
+  const toEntry = (i: Instance): LiveEntry | null => {
+    const contest = lookup(i.contestId);
+    if (!contest) return null;
+    return { contest, instance: i, status: statusOf(i, now) };
+  };
 
   let entries: LiveEntry[];
   let liveTitle: string;
   if (isToday) {
-    const liveOnes = dayInsts.filter((i) => statusOf(i, now) === "live").map(toEntry);
-    const soonOnes = dayInsts.filter((i) => statusOf(i, now) === "soon").map(toEntry);
+    const liveOnes = dayInsts
+      .filter((i) => statusOf(i, now) === "live")
+      .map(toEntry)
+      .filter((e): e is LiveEntry => !!e);
+    const soonOnes = dayInsts
+      .filter((i) => statusOf(i, now) === "soon")
+      .map(toEntry)
+      .filter((e): e is LiveEntry => !!e);
     if (liveOnes.length) {
       entries = [...liveOnes, ...soonOnes];
       liveTitle = "On air now";
@@ -146,26 +159,28 @@ export function Dashboard() {
       const up = allInstances
         .filter((i) => i.start.getTime() >= now.getTime())
         .sort((a, b) => a.start.getTime() - b.start.getTime());
-      entries = up.length ? [toEntry(up[0])] : [];
+      const next = up[0] ? toEntry(up[0]) : null;
+      entries = next ? [next] : [];
       liveTitle = "Next up";
     }
   } else {
     entries = dayInsts
       .slice()
       .sort((a, b) => a.start.getTime() - b.start.getTime())
-      .map((i) => ({ contest: contestById(i.contestId)!, instance: i, status: "later" as const }));
+      .map(toEntry)
+      .filter((e): e is LiveEntry => !!e)
+      .map((e) => ({ ...e, status: "later" as const }));
     liveTitle = `Scheduled — ${dateLabel(selectedDate)}`;
   }
 
-  // ---- multi-day timeline ----
-  const n = RANGE_DAYS[wfRange];
+  const n = RANGE_DAYS[wfRange] ?? 14;
   const rangeStart = startOfUTCDay(now).getTime();
   const days: Date[] = Array.from({ length: n }, (_, j) => new Date(rangeStart + j * DAY));
   const selectedIndex = Math.round((dayStart - rangeStart) / DAY);
   const selInRange = selectedIndex >= 0 && selectedIndex < n;
 
   const wfRows: WfRow[] = [];
-  for (const c of CONTESTS) {
+  for (const c of catalog) {
     const insts = byContest.get(c.id) ?? [];
     const hours = days.map((d) => {
       const s = d.getTime();
@@ -189,10 +204,10 @@ export function Dashboard() {
     return a.contest.short.localeCompare(b.contest.short);
   });
 
-  // ---- day timeline ----
   const tlMap = new Map<string, TlRow>();
   for (const i of dayInsts) {
-    const c = contestById(i.contestId)!;
+    const c = lookup(i.contestId);
+    if (!c) continue;
     const row =
       tlMap.get(c.id) ??
       ({ contest: c, segments: [], highlight: hasFilter && matchSet.has(c.id) } as TlRow);
@@ -205,12 +220,11 @@ export function Dashboard() {
     tlMap.set(c.id, row);
   }
   const tlRows = Array.from(tlMap.values()).sort(
-    (a, b) => a.segments[0].a - b.segments[0].a
+    (a, b) => (a.segments[0]?.a ?? 0) - (b.segments[0]?.a ?? 0)
   );
   const nowFrac = isToday ? (now.getTime() - dayStart) / DAY : null;
 
-  // ---- cards ----
-  const listContests = hasFilter ? CONTESTS.filter(contestMatches) : CONTESTS.slice();
+  const listContests = hasFilter ? catalog.filter(contestMatches) : catalog.slice();
   const cards = listContests
     .map((c) => {
       const occ = relevantInstance(byContest.get(c.id) ?? [], now);
@@ -226,6 +240,7 @@ export function Dashboard() {
     });
 
   const showProfileNudge = isDefaultStation(station);
+  const calOnly = extras.contests.length;
 
   return (
     <>
@@ -238,8 +253,16 @@ export function Dashboard() {
         </h1>
         <p className="hero-note">
           Paste what you copied off the air, punch in a frequency, or pick a date.
-          The schedule is computed in your browser and works offline; exchanges
-          fill in from your station profile.
+          Built-in schedules run offline; this week&apos;s WA7BNM calendar fills any
+          gaps automatically.
+          {calOnly ? (
+            <>
+              {" "}
+              <span className="mono" style={{ color: "var(--signal)" }}>
+                +{calOnly} from calendar
+              </span>
+            </>
+          ) : null}
         </p>
         {showProfileNudge ? (
           <p className="profile-nudge" role="status">
@@ -294,7 +317,12 @@ export function Dashboard() {
           <div className="section-tools">
             <span className="seg">
               {(["wk", "2wk", "6wk"] as const).map((r) => (
-                <button key={r} className={wfRange === r ? "on" : ""} onClick={() => setWfRange(r)}>
+                <button
+                  key={r}
+                  type="button"
+                  className={wfRange === r ? "on" : ""}
+                  onClick={() => setWfRange(r)}
+                >
                   {r}
                 </button>
               ))}

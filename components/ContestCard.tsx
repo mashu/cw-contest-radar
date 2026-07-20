@@ -70,6 +70,7 @@ export function ContestCard({
   const [open, setOpen] = useState(true);
   const w = whenLabel(occurrence, now);
   const youSend = renderExchange(contest, station);
+  const calendarOnly = contest.id.startsWith("cal-");
 
   return (
     <article className={`card ${match ? "match" : ""}`}>
@@ -78,7 +79,7 @@ export function ContestCard({
           <div className="card-id">{contest.short}</div>
           <Morse text={contest.short} />
         </div>
-        <span className="card-tier">{contest.tier}</span>
+        <span className="card-tier">{calendarOnly ? "calendar" : contest.tier}</span>
       </div>
       <div className="card-name">{contest.name}</div>
 
@@ -151,9 +152,15 @@ export function ContestCard({
       </div>
 
       <div className="card-foot">
-        <Link className="btn primary" href={`/contests/${contest.id}/`}>
-          Full details
-        </Link>
+        {calendarOnly ? (
+          <a className="btn primary" href={contest.rules} target="_blank" rel="noreferrer">
+            Contest website ↗
+          </a>
+        ) : (
+          <Link className="btn primary" href={`/contests/${contest.id}/`}>
+            Full details
+          </Link>
+        )}
         <button type="button" className="btn" onClick={() => setOpen((v) => !v)}>
           {open ? "Hide example" : "Show example"}
         </button>
