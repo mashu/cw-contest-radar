@@ -22,10 +22,11 @@ Two independent layers, by design:
 
 2. **Live feed** (`public/data/contests.json`). A cron job pulls the current week
    from the [WA7BNM Contest Calendar](https://www.contestcalendar.com/), filters
-   it to CW, and commits it as static JSON. Contests already in the curated DB
-   are matched by name; anything else is folded into the radar for that week so
-   one-off and newly listed events (and anything we haven't curated yet) still
-   show up with a best-effort exchange.
+   it to CW, and commits it as static JSON. **Every CW row is folded into the
+   radar** — known contests get curated exchanges; anything new or unlisted still
+   appears with whatever name, time, bands, exchange blurb and rules URL the
+   calendar published. Nothing is dropped just because we lack a hand-written
+   recurrence rule.
 
 Because the app never depends on the live feed to function, the very first deploy
 already works — the committed seed JSON is enough, and the recurrence engine does

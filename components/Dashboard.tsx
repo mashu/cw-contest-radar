@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { CONTESTS, contestById, matchesHeard } from "@/lib/contests";
+import { contestById, matchesHeard } from "@/lib/contests";
 import { expandAll, relevantInstance, statusOf } from "@/lib/recurrence";
 import { bandFor, parseFreq } from "@/lib/bands";
 import { dayIntensity } from "@/lib/colormap";
@@ -11,7 +11,7 @@ import {
   renderExchange,
 } from "@/lib/station";
 import { loadLiveFeed } from "@/lib/feed";
-import { allContestsWithExtras, calendarExtras } from "@/lib/calendarMerge";
+import { mergeCalendarFeed } from "@/lib/calendarMerge";
 import type { Contest, Instance, InstanceStatus, LiveFeed, Station } from "@/lib/types";
 import {
   dateInputValue,
@@ -45,6 +45,21 @@ function overlapHours(inst: Instance, from: number, to: number): number {
   return b > a ? (b - a) / 3600000 : 0;
 }
 
+/** Prefer calendar windows for this week; keep curated recurrence for the rest. */
+function mergeInstances(curated: Instance[], fromFeed: Instance[]): Instance[] {
+  const out = [...curated];
+  for (const fi of fromFeed) {
+    const overlaps = curated.some((ci) => {
+      if (ci.contestId !== fi.contestId) return false;
+      const a = Math.max(ci.start.getTime(), fi.start.getTime());
+      const b = Math.min(ci.end.getTime(), fi.end.getTime());
+      return b > a;
+    });
+    if (!overlaps) out.push(fi);
+  }
+  return out;
+}
+
 export function Dashboard() {
   const [now, setNow] = useState<Date | null>(null);
   const [dateStr, setDateStr] = useState("");
@@ -74,8 +89,8 @@ export function Dashboard() {
   }, []);
 
   const nowKey = now ? dayKey(now) : "";
-  const extras = useMemo(() => calendarExtras(feed), [feed]);
-  const catalog = useMemo(() => allContestsWithExtras(extras.contests), [extras]);
+  const merged = useMemo(() => mergeCalendarFeed(feed), [feed]);
+  const catalog = merged.contests;
   const byId = useMemo(() => {
     const m = new Map<string, Contest>();
     for (const c of catalog) m.set(c.id, c);
@@ -87,7 +102,10 @@ export function Dashboard() {
     if (!now) return { allInstances: [] as Instance[], byContest: new Map<string, Instance[]>() };
     const from = new Date(startOfUTCDay(now).getTime() - 2 * DAY);
     const to = new Date(startOfUTCDay(now).getTime() + 71 * DAY);
-    const all = [...expandAll(CONTESTS, from, to), ...extras.instances];
+    // Expand only curated entries from recurrence; calendar supplies the rest.
+    const curatedOnly = catalog.filter((c) => !c.id.startsWith("cal-"));
+    const expanded = expandAll(curatedOnly, from, to);
+    const all = mergeInstances(expanded, merged.instances);
     const map = new Map<string, Instance[]>();
     for (const i of all) {
       const arr = map.get(i.contestId) ?? [];
@@ -95,7 +113,7 @@ export function Dashboard() {
       map.set(i.contestId, arr);
     }
     return { allInstances: all, byContest: map };
-  }, [nowKey, extras]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [nowKey, merged, catalog]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!now || !dateStr) {
     return (
@@ -179,14 +197,26 @@ export function Dashboard() {
   const selectedIndex = Math.round((dayStart - rangeStart) / DAY);
   const selInRange = selectedIndex >= 0 && selectedIndex < n;
 
+  // Timeline rows: contests with activity in range, including calendar-only.
+  const activeIds = new Set<string>();
+  for (const i of allInstances) {
+    if (i.end.getTime() > rangeStart && i.start.getTime() < rangeStart + n * DAY) {
+      activeIds.add(i.contestId);
+    }
+  }
+  const timelineContests = catalog.filter(
+    (c) => activeIds.has(c.id) || !c.id.startsWith("cal-")
+  );
+
   const wfRows: WfRow[] = [];
-  for (const c of catalog) {
+  for (const c of timelineContests) {
     const insts = byContest.get(c.id) ?? [];
     const hours = days.map((d) => {
       const s = d.getTime();
       return insts.reduce((acc, i) => acc + overlapHours(i, s, s + DAY), 0);
     });
     const total = hours.reduce((a, b) => a + b, 0);
+    if (total <= 0 && c.id.startsWith("cal-")) continue;
     if (total <= 0) continue;
     const w = TIER_WEIGHT[c.tier];
     wfRows.push({
@@ -224,6 +254,7 @@ export function Dashboard() {
   );
   const nowFrac = isToday ? (now.getTime() - dayStart) / DAY : null;
 
+  // Cards: every curated contest + every calendar-only contest from this feed.
   const listContests = hasFilter ? catalog.filter(contestMatches) : catalog.slice();
   const cards = listContests
     .map((c) => {
@@ -240,7 +271,6 @@ export function Dashboard() {
     });
 
   const showProfileNudge = isDefaultStation(station);
-  const calOnly = extras.contests.length;
 
   return (
     <>
@@ -253,13 +283,15 @@ export function Dashboard() {
         </h1>
         <p className="hero-note">
           Paste what you copied off the air, punch in a frequency, or pick a date.
-          Built-in schedules run offline; this week&apos;s WA7BNM calendar fills any
-          gaps automatically.
-          {calOnly ? (
+          Every CW event from the WA7BNM calendar is shown — curated contests get
+          full exchange help; anything new still appears with whatever the calendar
+          published.
+          {feedLoaded && merged.feedItems > 0 ? (
             <>
               {" "}
               <span className="mono" style={{ color: "var(--signal)" }}>
-                +{calOnly} from calendar
+                calendar {merged.feedItems}/{merged.feedItems}
+                {merged.calendarOnly ? ` · +${merged.calendarOnly} unlisted` : ""}
               </span>
             </>
           ) : null}
@@ -375,8 +407,12 @@ export function Dashboard() {
 
       <section className="wrap section">
         <div className="section-head">
-          <span className="section-title">This week — live feed</span>
-          <span className="section-count">WA7BNM, refreshed by CI</span>
+          <span className="section-title">This week — full calendar</span>
+          <span className="section-count">
+            {merged.feedItems
+              ? `${merged.feedItems} CW events · WA7BNM`
+              : "WA7BNM, refreshed by CI"}
+          </span>
         </div>
         <LiveFeedPanel feed={feed} loaded={feedLoaded} />
       </section>
