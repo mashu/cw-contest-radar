@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Tue, 21 Jul 2026 03:44:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:44:05 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>MST — 21 Jul 0300Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/mst/</link>
-      <guid isPermaLink="false">mst-20260721T030000Z</guid>
-      <pubDate>Tue, 21 Jul 2026 03:00:00 GMT</pubDate>
-      <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
-    </item>
     <item>
       <title>TTC — 21 Jul 1930Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
@@ -1055,6 +1048,13 @@
       <guid isPermaLink="false">mst-20260922T030000Z</guid>
       <pubDate>Tue, 22 Sep 2026 03:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
+    </item>
+    <item>
+      <title>TTC — 22 Sep 1930Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
+      <guid isPermaLink="false">ttc-20260922T193000Z</guid>
+      <pubDate>Tue, 22 Sep 2026 19:30:00 GMT</pubDate>
+      <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
     </item>
   </channel>
 </rss>
