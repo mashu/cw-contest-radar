@@ -4,22 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Wed, 22 Jul 2026 14:21:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:42:40 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>MT40 — 22 Jul 1700Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
-      <guid isPermaLink="false">mt40-20260722T170000Z</guid>
-      <pubDate>Wed, 22 Jul 2026 17:00:00 GMT</pubDate>
-      <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
-    </item>
-    <item>
-      <title>MT80 — 22 Jul 1800Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
-      <guid isPermaLink="false">mt80-20260722T180000Z</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 GMT</pubDate>
-      <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
-    </item>
     <item>
       <title>CWT — 22 Jul 1900Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
@@ -1055,6 +1041,20 @@
       <guid isPermaLink="false">mt40-20260923T170000Z</guid>
       <pubDate>Wed, 23 Sep 2026 17:00:00 GMT</pubDate>
       <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
+    </item>
+    <item>
+      <title>MT80 — 23 Sep 1800Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt80/</link>
+      <guid isPermaLink="false">mt80-20260923T180000Z</guid>
+      <pubDate>Wed, 23 Sep 2026 18:00:00 GMT</pubDate>
+      <description>Mini-Test 80. You send: 599 001. 80m only. RST + serial. Same station once per 10-minute period. Bands: 80m. Rules: http://minitest.narod.ru/</description>
+    </item>
+    <item>
+      <title>CWT — 23 Sep 1900Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
+      <guid isPermaLink="false">cwt-20260923T190000Z</guid>
+      <pubDate>Wed, 23 Sep 2026 19:00:00 GMT</pubDate>
+      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
   </channel>
 </rss>
