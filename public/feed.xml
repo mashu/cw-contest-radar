@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Wed, 22 Jul 2026 19:42:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 03:43:54 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>CWT — 22 Jul 1900Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
-      <guid isPermaLink="false">cwt-20260722T190000Z</guid>
-      <pubDate>Wed, 22 Jul 2026 19:00:00 GMT</pubDate>
-      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
-    </item>
     <item>
       <title>CWT — 23 Jul 0300Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
@@ -1054,6 +1047,13 @@
       <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20260923T190000Z</guid>
       <pubDate>Wed, 23 Sep 2026 19:00:00 GMT</pubDate>
+      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
+    </item>
+    <item>
+      <title>CWT — 24 Sep 0300Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
+      <guid isPermaLink="false">cwt-20260924T030000Z</guid>
+      <pubDate>Thu, 24 Sep 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
   </channel>
