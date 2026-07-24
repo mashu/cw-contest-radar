@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Thu, 23 Jul 2026 19:44:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 03:43:12 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>NS — 24 Jul 0230Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
-      <guid isPermaLink="false">nccc-20260724T023000Z</guid>
-      <pubDate>Fri, 24 Jul 2026 02:30:00 GMT</pubDate>
-      <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
-    </item>
     <item>
       <title>SST — 24 Jul 2000Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
@@ -1055,6 +1048,13 @@
       <guid isPermaLink="false">nccc-20260925T023000Z</guid>
       <pubDate>Fri, 25 Sep 2026 02:30:00 GMT</pubDate>
       <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
+    </item>
+    <item>
+      <title>SST — 25 Sep 2000Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
+      <guid isPermaLink="false">sst-20260925T200000Z</guid>
+      <pubDate>Fri, 25 Sep 2026 20:00:00 GMT</pubDate>
+      <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
   </channel>
 </rss>
