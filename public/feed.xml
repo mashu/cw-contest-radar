@@ -4,22 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Wed, 29 Jul 2026 09:07:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 14:30:48 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>AWT — 29 Jul 1145Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
-      <guid isPermaLink="false">awt-20260729T114500Z</guid>
-      <pubDate>Wed, 29 Jul 2026 11:45:00 GMT</pubDate>
-      <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
-    </item>
-    <item>
-      <title>CWT — 29 Jul 1300Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
-      <guid isPermaLink="false">cwt-20260729T130000Z</guid>
-      <pubDate>Wed, 29 Jul 2026 13:00:00 GMT</pubDate>
-      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
-    </item>
     <item>
       <title>MT40 — 29 Jul 1700Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
@@ -1055,6 +1041,20 @@
       <guid isPermaLink="false">awt-20260930T114500Z</guid>
       <pubDate>Wed, 30 Sep 2026 11:45:00 GMT</pubDate>
       <description>A1Club AWT. You send: 599 MATEUSZ. Send RST + your CW name (handle). First 15 minutes are QRS (≤15 wpm). Bands: 160, 80, 40, 20, 15, 10m. Rules: https://a1club.org/contest/awt/</description>
+    </item>
+    <item>
+      <title>CWT — 30 Sep 1300Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
+      <guid isPermaLink="false">cwt-20260930T130000Z</guid>
+      <pubDate>Wed, 30 Sep 2026 13:00:00 GMT</pubDate>
+      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
+    </item>
+    <item>
+      <title>MT40 — 30 Sep 1700Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mt40/</link>
+      <guid isPermaLink="false">mt40-20260930T170000Z</guid>
+      <pubDate>Wed, 30 Sep 2026 17:00:00 GMT</pubDate>
+      <description>Mini-Test 40. You send: 599 001. 40m only. RST + serial. Same station once per 10-minute period. Bands: 40m. Rules: http://minitest.narod.ru/</description>
     </item>
   </channel>
 </rss>
