@@ -1,11 +1,12 @@
 import { readFileSync } from "node:fs";
 import { mergeCalendarFeed } from "../lib/calendarMerge";
+import { auditFeedCoverage, formatFeedCoverage } from "../lib/feedCoverage";
 import {
   guessExchangeTemplate,
   namesMatch,
   parseFeedTime,
 } from "../lib/feedSchedule";
-import type { LiveFeed } from "../lib/types";
+import type { LiveContest, LiveFeed } from "../lib/types";
 
 let fails = 0;
 function eq(name: string, got: unknown, want: unknown) {
@@ -96,6 +97,16 @@ const fuzzy = mergeCalendarFeed(fuzzyFeed);
 eq("fuzzy time still yields instance", fuzzy.instances.length, 1);
 eq("fuzzyTimes counted", fuzzy.fuzzyTimes, 1);
 eq("fuzzy becomes cal-*", fuzzy.contests.some((c) => c.id.startsWith("cal-")), true);
+
+console.log("\n--- coverage audit (committed feed) ---");
+const coverage = auditFeedCoverage(feed.items as LiveContest[], feed);
+console.log(formatFeedCoverage(coverage));
+eq("committed feed coverage ok", coverage.ok, true);
+eq("no missing CW names", coverage.missingNames.length, 0);
+
+const fuzzyCov = auditFeedCoverage(fuzzyFeed.items, fuzzyFeed);
+eq("fuzzy feed coverage ok", fuzzyCov.ok, true);
+eq("fuzzy feed has 1 CW", fuzzyCov.cwKept, 1);
 
 console.log(fails === 0 ? "\nALL PASS (feed schedule)" : `\n${fails} FAILED`);
 process.exit(fails === 0 ? 0 : 1);

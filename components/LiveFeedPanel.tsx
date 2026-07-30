@@ -39,7 +39,7 @@ export function LiveFeedPanel({
     <div className="feed-list">
       <div className="feed-status" style={{ marginBottom: 10 }}>
         {feed.items.length} CW events · updated{" "}
-        {relative(new Date(feed.generatedAt), new Date())} · nothing dropped
+        {relative(new Date(feed.generatedAt), new Date())} · every CW row kept
       </div>
       {feed.items.map((c, i) => {
         const known = isCurated(c.name);
