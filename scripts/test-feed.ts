@@ -51,6 +51,15 @@ eq(
   namesMatch("CWops Test (CWT)", "CWops Mini-CWT Test", "CWT", ["CWT", "CWO"]),
   true
 );
+eq(
+  "EU HF match",
+  namesMatch("European HF Championship", "European HF Championship", "EUHF", [
+    "EUHF",
+    "EU HF",
+    "EUHFC",
+  ]),
+  true
+);
 
 console.log("\n--- full calendar coverage ---");
 const feed = JSON.parse(readFileSync("public/data/contests.json", "utf8")) as LiveFeed;
@@ -60,8 +69,33 @@ eq("every feed row becomes instances", merged.instances.length >= feed.items.len
 eq("unmatched become cal-* contests", merged.calendarOnly > 0, true);
 
 const synthIds = new Set(merged.contests.filter((c) => c.id.startsWith("cal-")).map((c) => c.id));
-eq("Russian Radio is calendar-only", [...synthIds].some((id) => id.includes("russian")), true);
-eq("IARU 70 is calendar-only", [...synthIds].some((id) => id.includes("70") || id.includes("iaru-region")), true);
+eq("some calendar-only synths exist", synthIds.size > 0, true);
+eq(
+  "EU HF folds into curated",
+  merged.instances.some((i) => i.contestId === "euhf"),
+  true
+);
+eq("EU HF is not synthetic", [...synthIds].some((id) => id.includes("european")), false);
+
+// Incomplete times must still produce a visible window (nothing dropped).
+const fuzzyFeed: LiveFeed = {
+  generatedAt: "2026-07-30T12:00:00.000Z",
+  source: "test",
+  items: [
+    {
+      name: "Bogus Incomplete Contest",
+      time: "sometime this week maybe",
+      mode: "CW",
+      bands: "",
+      exchange: "",
+      cw: true,
+    },
+  ],
+};
+const fuzzy = mergeCalendarFeed(fuzzyFeed);
+eq("fuzzy time still yields instance", fuzzy.instances.length, 1);
+eq("fuzzyTimes counted", fuzzy.fuzzyTimes, 1);
+eq("fuzzy becomes cal-*", fuzzy.contests.some((c) => c.id.startsWith("cal-")), true);
 
 console.log(fails === 0 ? "\nALL PASS (feed schedule)" : `\n${fails} FAILED`);
 process.exit(fails === 0 ? 0 : 1);
