@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Sat, 01 Aug 2026 19:32:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 03:51:37 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>EUHF — 1 Aug 1200Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/euhf/</link>
-      <guid isPermaLink="false">euhf-20260801T120000Z</guid>
-      <pubDate>Sat, 01 Aug 2026 12:00:00 GMT</pubDate>
-      <description>European HF Championship. You send: 599 YY. Send RST + 2-digit year you were first licensed (e.g. 09 if licensed in 2009). Europe only. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://euhf.s5cc.eu/euhfc_rules/</description>
-    </item>
     <item>
       <title>NAQP — 1 Aug 1800Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/naqp/</link>
@@ -1054,6 +1047,13 @@
       <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
       <guid isPermaLink="false">sst-20261002T200000Z</guid>
       <pubDate>Fri, 02 Oct 2026 20:00:00 GMT</pubDate>
+      <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
+    </item>
+    <item>
+      <title>SST — 5 Oct 0000Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
+      <guid isPermaLink="false">sst-20261005T000000Z</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
     </item>
   </channel>
