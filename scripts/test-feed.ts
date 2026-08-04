@@ -71,12 +71,37 @@ eq("unmatched become cal-* contests", merged.calendarOnly > 0, true);
 
 const synthIds = new Set(merged.contests.filter((c) => c.id.startsWith("cal-")).map((c) => c.id));
 eq("some calendar-only synths exist", synthIds.size > 0, true);
+// Live weeklycal only lists "this week" — after the first Saturday of August
+// EU HF drops out. Fold behavior is asserted against a fixture so CI does not
+// depend on the calendar week. Live feed still must not invent cal-european-*.
+eq("live EU HF is not synthetic", [...synthIds].some((id) => id.includes("european")), false);
+
+const euhfFeed: LiveFeed = {
+  generatedAt: "2026-08-01T12:00:00.000Z",
+  source: "test",
+  items: [
+    {
+      name: "European HF Championship",
+      time: "1200Z-2359Z, Aug 1",
+      mode: "CW, SSB",
+      bands: "160, 80, 40, 20, 15, 10m",
+      exchange: "RS(T) + 2-digit year first licensed",
+      cw: true,
+      rules: "https://euhf.s5cc.eu/euhfc_rules/",
+    },
+  ],
+};
+const euhfMerged = mergeCalendarFeed(euhfFeed);
 eq(
   "EU HF folds into curated",
-  merged.instances.some((i) => i.contestId === "euhf"),
+  euhfMerged.instances.some((i) => i.contestId === "euhf"),
   true
 );
-eq("EU HF is not synthetic", [...synthIds].some((id) => id.includes("european")), false);
+eq(
+  "EU HF is not synthetic",
+  euhfMerged.contests.some((c) => c.id.startsWith("cal-")),
+  false
+);
 
 // Incomplete times must still produce a visible window (nothing dropped).
 const fuzzyFeed: LiveFeed = {
