@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Tue, 08 Sep 2026 11:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 11:29:47 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>TTC — 8 Sep 1930Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/ttc/</link>
-      <guid isPermaLink="false">ttc-20260908T193000Z</guid>
-      <pubDate>Tue, 08 Sep 2026 19:30:00 GMT</pubDate>
-      <description>Tuesday's Telegraphy Contest. You send: 599 001. Send RST + serial. Same station may be worked again each 15-minute period (4 periods per hour). Bands: 80, 40m. Rules: https://spcwc.pl/ttc/rules/en</description>
-    </item>
     <item>
       <title>AWT — 9 Sep 1145Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/awt/</link>
@@ -1054,6 +1047,13 @@
       <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
       <guid isPermaLink="false">cwt-20261111T190000Z</guid>
       <pubDate>Wed, 11 Nov 2026 19:00:00 GMT</pubDate>
+      <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
+    </item>
+    <item>
+      <title>CWT — 12 Nov 0300Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/cwt/</link>
+      <guid isPermaLink="false">cwt-20261112T030000Z</guid>
+      <pubDate>Thu, 12 Nov 2026 03:00:00 GMT</pubDate>
       <description>CWops Mini-CWT Test. You send: MATEUSZ SO. No RST. CWops members send name + member number; you send name + your prefix/country. It runs fast, but ops will slow to your speed if you call slower. Bands: 80, 40, 20, 15, 10m. Rules: https://cwops.org/cwops-tests/</description>
     </item>
   </channel>
