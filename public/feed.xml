@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Thu, 17 Sep 2026 11:48:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 11:22:51 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>NS — 18 Sep 0230Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
-      <guid isPermaLink="false">nccc-20260918T023000Z</guid>
-      <pubDate>Fri, 18 Sep 2026 02:30:00 GMT</pubDate>
-      <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
-    </item>
     <item>
       <title>SST — 18 Sep 2000Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
@@ -1055,6 +1048,13 @@
       <guid isPermaLink="false">mst-20261123T190000Z</guid>
       <pubDate>Mon, 23 Nov 2026 19:00:00 GMT</pubDate>
       <description>ICWC Medium Speed Test. You send: MATEUSZ 001. Send name + serial number, starting at 001 and counting up across the session. Bands: 80, 40, 20m. Rules: https://icwc.uk/mst.html</description>
+    </item>
+    <item>
+      <title>MWC — 23 Nov 1900Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/mwc/</link>
+      <guid isPermaLink="false">mwc-20261123T190000Z</guid>
+      <pubDate>Mon, 23 Nov 2026 19:00:00 GMT</pubDate>
+      <description>OK1WC Memorial (MWC). You send: 599 001. Send RST + serial. The multiplier is the last letter of each worked station's suffix. Bands: 80m. Rules: https://memorial-ok1wc.cz/index.php?page=rules2l</description>
     </item>
   </channel>
 </rss>
