@@ -1,369 +1,369 @@
 {
-  "generatedAt": "2026-09-28T14:04:31.113Z",
+  "generatedAt": "2026-09-29T12:59:59.493Z",
   "source": "https://www.contestcalendar.com/weeklycal.txt",
   "items": [
     {
-      "name": "4 States QRP Group Second Sunday Sprint",
-      "time": "0000Z-0200Z, Sep 14",
-      "mode": "CW, SSB",
-      "bands": "160, 80, 40, 20, 15, 10m",
-      "exchange": "Member: RS(T) + (State/Province/Country) + Member No.",
-      "cw": true,
-      "rules": "http://www.4sqrp.com/SSS/sss_rules_revised_02_2026.pdf",
-      "log": "http://qrpcontest.com/4sqrp",
-      "deadline": "September 16, 2026"
-    },
-    {
       "name": "K1USN Slow Speed Test",
-      "time": "0000Z-0100Z, Sep 14",
+      "time": "0000Z-0100Z, Sep 28",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Maximum 20 wpm",
       "cw": true,
       "rules": "http://www.k1usn.com/sst.html",
       "log": "http://www.3830scores.com",
-      "deadline": "2359Z September 16, 2026"
+      "deadline": "2359Z September 30, 2026"
+    },
+    {
+      "name": "QCX Challenge",
+      "time": "1300Z-1400Z, Sep 28",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20, 15, 10m",
+      "exchange": "RST + Name + (state/province/country) + Rig",
+      "cw": true,
+      "rules": "http://www.qrp-labs.com/party.html",
+      "log": "http://www.3830scores.com",
+      "deadline": "0400Z October 4, 2026"
     },
     {
       "name": "ICWC Medium Speed Test",
-      "time": "1300Z-1400Z, Sep 14",
+      "time": "1300Z-1400Z, Sep 28",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Name + QSO No.",
       "cw": true,
       "rules": "https://internationalcwcouncil.org/mst-contest/",
       "log": "http://www.3830scores.com",
-      "deadline": "0400Z September 17, 2026"
+      "deadline": "0400Z October 1, 2026"
     },
     {
       "name": "OK1WC Memorial (MWC)",
-      "time": "1630Z-1729Z, Sep 14",
+      "time": "1630Z-1729Z, Sep 28",
       "mode": "CW",
       "bands": "80, 40m",
       "exchange": "RST + Serial No.",
       "cw": true,
       "rules": "https://memorial-ok1wc.cz/index.php?page=rules2l",
       "log": "https://memorial-ok1wc.cz/index.php?page=logs",
-      "deadline": "0600Z September 18, 2026"
+      "deadline": "0600Z October 2, 2026"
+    },
+    {
+      "name": "QCX Challenge",
+      "time": "1900Z-2000Z, Sep 28",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20, 15, 10m",
+      "exchange": "RST + Name + (state/province/country) + Rig",
+      "cw": true,
+      "rules": "http://www.qrp-labs.com/party.html",
+      "log": "http://www.3830scores.com",
+      "deadline": "0400Z October 4, 2026"
     },
     {
       "name": "ICWC Medium Speed Test",
-      "time": "1900Z-2000Z, Sep 14",
+      "time": "1900Z-2000Z, Sep 28",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Name + QSO No.",
       "cw": true,
       "rules": "https://internationalcwcouncil.org/mst-contest/",
       "log": "http://www.3830scores.com",
-      "deadline": "0400Z September 17, 2026"
+      "deadline": "0400Z October 1, 2026"
+    },
+    {
+      "name": "QCX Challenge",
+      "time": "0300Z-0400Z, Sep 29",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20, 15, 10m",
+      "exchange": "RST + Name + (state/province/country) + Rig",
+      "cw": true,
+      "rules": "http://www.qrp-labs.com/party.html",
+      "log": "http://www.3830scores.com",
+      "deadline": "0400Z October 4, 2026"
     },
     {
       "name": "ICWC Medium Speed Test",
-      "time": "0300Z-0400Z, Sep 15",
+      "time": "0300Z-0400Z, Sep 29",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Name + QSO No.",
       "cw": true,
       "rules": "https://internationalcwcouncil.org/mst-contest/",
       "log": "http://www.3830scores.com",
-      "deadline": "0400Z September 17, 2026"
+      "deadline": "0400Z October 1, 2026"
     },
     {
       "name": "Tuesday's Telegraphy Contest",
-      "time": "1930Z-2030Z, Sep 15",
+      "time": "1930Z-2030Z, Sep 29",
       "mode": "CW",
       "bands": "80, 40m",
       "exchange": "RST + Serial No.",
       "cw": true,
       "rules": "https://spcwc.pl/ttc/rules/en",
       "log": "https://spcwc.pl/upload",
-      "deadline": "2030Z September 16, 2026"
+      "deadline": "2030Z September 30, 2026"
     },
     {
       "name": "A1Club AWT",
-      "time": "1145Z-1300Z, Sep 16",
+      "time": "1145Z-1300Z, Sep 30",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Member: RST + Name",
       "cw": true,
       "rules": "https://a1club.org/contest/awt/",
       "log": "http://www.3830scores.com",
-      "deadline": "September 21, 2026"
+      "deadline": "October 5, 2026"
     },
     {
       "name": "CWops Test (CWT)",
-      "time": "1300Z-1400Z, Sep 16",
+      "time": "1300Z-1400Z, Sep 30",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Member: Name + Member No./\"CWA\"",
       "cw": true,
       "rules": "https://cwops.org/cwops-tests/",
       "log": "http://www.3830scores.com",
-      "deadline": "0800Z September 19, 2026"
+      "deadline": "0800Z October 3, 2026"
     },
     {
       "name": "Mini-Test 40",
-      "time": "1700Z-1759Z, Sep 16",
+      "time": "1700Z-1759Z, Sep 30",
       "mode": "CW",
       "bands": "40m Only",
       "exchange": "RST + Serial No.",
       "cw": true,
       "rules": "http://minitest.narod.ru/",
       "log": "https://ua9qcq.com/hf-logs.php",
-      "deadline": "September 18, 2026"
+      "deadline": "October 2, 2026"
     },
     {
       "name": "Mini-Test 80",
-      "time": "1800Z-1859Z, Sep 16",
+      "time": "1800Z-1859Z, Sep 30",
       "mode": "CW",
       "bands": "80m Only",
       "exchange": "RST + Serial No.",
       "cw": true,
       "rules": "http://minitest.narod.ru/",
       "log": "https://ua9qcq.com/hf-logs.php",
-      "deadline": "September 18, 2026"
-    },
-    {
-      "name": "RSGB 80m Autumn Series, CW",
-      "time": "1900Z-2030Z, Sep 16",
-      "mode": "CW",
-      "bands": "80m Only",
-      "exchange": "RST + Serial No.",
-      "cw": true,
-      "rules": "https://www.rsgbcc.org/hf/rules/2026/rautumn.shtml",
-      "log": "http://www.rsgbcc.org/cgi-bin/hfenter.pl",
-      "deadline": "2359Z September 19, 2026"
+      "deadline": "October 2, 2026"
     },
     {
       "name": "CWops Test (CWT)",
-      "time": "1900Z-2000Z, Sep 16",
+      "time": "1900Z-2000Z, Sep 30",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Member: Name + Member No./\"CWA\"",
       "cw": true,
       "rules": "https://cwops.org/cwops-tests/",
       "log": "http://www.3830scores.com",
-      "deadline": "0800Z September 19, 2026"
+      "deadline": "0800Z October 3, 2026"
+    },
+    {
+      "name": "UKEICC 80m Contest",
+      "time": "2000Z-2100Z, Sep 30",
+      "mode": "CW",
+      "bands": "80m Only",
+      "exchange": "6-Character grid square",
+      "cw": true,
+      "rules": "https://www.ukeicc.com/80m-rules.php",
+      "log": "http://logs.ukeicc.com/cgi-bin/hfenter.pl",
+      "deadline": "2200Z September 30, 2026"
     },
     {
       "name": "Walk for the Bacon QRP Contest",
-      "time": "0000Z-0100Z, Sep 17 and 0200Z-0300Z, Sep 18",
+      "time": "0000Z-0100Z, Oct 1 and 0200Z-0300Z, Oct 2",
       "mode": "CW",
-      "bands": "20m Only",
+      "bands": "40m Only",
       "exchange": "Maximum 13 wpm",
       "cw": true,
-      "rules": "https://qrpcontest.com/pigwalk20/",
-      "log": "https://qrpcontest.com/pigwalk20/autolog.php",
-      "deadline": "September 24, 2026"
-    },
-    {
-      "name": "NAQCC CW Sprint",
-      "time": "0030Z-0230Z, Sep 17",
-      "mode": "CW",
-      "bands": "80, 40, 20m",
-      "exchange": "RST + (state/province/country) + (NAQCC No./power)",
-      "cw": true,
-      "rules": "http://naqcc.info/sprint_rules.html",
-      "log": "http://naqcc.info/autologger.php",
-      "deadline": "2359Z September 20, 2026"
+      "rules": "https://qrpcontest.com/pigwalk40/",
+      "log": "https://qrpcontest.com/pigwalk40/autolog.php",
+      "deadline": "October 8, 2026"
     },
     {
       "name": "CWops Test (CWT)",
-      "time": "0300Z-0400Z, Sep 17",
+      "time": "0300Z-0400Z, Oct 1",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Member: Name + Member No./\"CWA\"",
       "cw": true,
       "rules": "https://cwops.org/cwops-tests/",
       "log": "http://www.3830scores.com",
-      "deadline": "0800Z September 19, 2026"
+      "deadline": "0800Z October 3, 2026"
     },
     {
       "name": "CWops Test (CWT)",
-      "time": "0700Z-0800Z, Sep 17",
+      "time": "0700Z-0800Z, Oct 1",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Member: Name + Member No./\"CWA\"",
       "cw": true,
       "rules": "https://cwops.org/cwops-tests/",
       "log": "http://www.3830scores.com",
-      "deadline": "0800Z September 19, 2026"
+      "deadline": "0800Z October 3, 2026"
     },
     {
-      "name": "BCC QSO Party",
-      "time": "1800Z-1959Z, Sep 17",
-      "mode": "CW, SSB, RTTY",
-      "bands": "80m Only",
-      "exchange": "RS(T) + T-shirt size (see rules)",
+      "name": "NRAU 10m Activity Contest",
+      "time": "1700Z-1800Z, Oct 1 (CW) and 1800Z-1900Z, Oct 1 (SSB) and 1900Z-2000Z, Oct 1 (FM) and 2000Z-2100Z, Oct 1 (Dig)",
+      "mode": "CW, SSB, FM, Digital",
+      "bands": "10m Only",
+      "exchange": "RS(T) + 6-character grid square",
       "cw": true,
-      "rules": "https://www.bavarian-contest-club.de/",
-      "log": "http://dl6mhw.de/~dl6mhw/bcc/log_upload.php",
-      "deadline": "2059Z September 17, 2026"
+      "rules": "https://nrau.net/nrau-contests-in-general/",
+      "log": "10m[at]nrrlcontest[dot]no",
+      "deadline": "October 15, 2026"
     },
     {
-      "name": "NTC QSO Party",
-      "time": "1900Z-2000Z, Sep 17",
+      "name": "SKCC Sprint Europe",
+      "time": "2000Z-2200Z, Oct 1",
       "mode": "CW",
-      "bands": "80, 40, 20m",
-      "exchange": "NTC Member: RST + Member No.",
+      "bands": "160, 80, 40, 20, 15, 10, 6m",
+      "exchange": "RST + (state/province/country) + Name + (SKCC No./\"NONE\")",
       "cw": true,
-      "rules": "https://pi4ntc.nl/ntcqp/",
-      "log": "https://pi4ntc.nl/ntcqp/",
-      "deadline": "September 21, 2026"
+      "rules": "https://www.skccgroup.com/operating_activities/skse/",
+      "log": "http://www.skccgroup.com/operating_activities/skse/submit-display.php?submit_id=165",
+      "deadline": "October 8, 2026"
     },
     {
       "name": "NCCC Sprint",
-      "time": "0230Z-0300Z, Sep 18",
+      "time": "0230Z-0300Z, Oct 2",
       "mode": "CW",
       "bands": "(see rules)",
       "exchange": "Serial No. + Name + QTH",
       "cw": true,
       "rules": "https://ncccsprint.com/rules.html",
       "log": "http://www.3830scores.com/",
-      "deadline": "September 20, 2026"
-    },
-    {
-      "name": "AGB NEMIGA Contest",
-      "time": "1600Z-1700Z, Sep 18",
-      "mode": "CW, SSB, Digital",
-      "bands": "80m Only",
-      "exchange": "AGB Member: RST + QSO No. + Member No.",
-      "cw": true,
-      "rules": "http://ev5agb.com/contest/contests.htm",
-      "log": "eu1eu[at]mail[dot]ru",
-      "deadline": "October 18, 2026"
+      "deadline": "October 4, 2026"
     },
     {
       "name": "K1USN Slow Speed Test",
-      "time": "2000Z-2100Z, Sep 18",
+      "time": "2000Z-2100Z, Oct 2",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Maximum 20 wpm",
       "cw": true,
       "rules": "http://www.k1usn.com/sst.html",
       "log": "http://www.3830scores.com",
-      "deadline": "2359Z September 20, 2026"
+      "deadline": "2359Z October 4, 2026"
     },
     {
-      "name": "FRAPR 10M Contest",
-      "time": "0000Z, Sep 19 to 2359Z, Sep 20",
+      "name": "George Batterson 1936 QSO Party",
+      "time": "2300Z, Oct 2 to 0300Z, Oct 5",
+      "mode": "CW",
+      "bands": "160, 80, 40, 20m",
+      "exchange": "RST + Name + QTH + Eqpt Year + Input Power(W) + Transmitter Type (see rules for format) + Output Power",
+      "cw": true,
+      "rules": "https://www.qsl.net/ve7sl/batterson.html",
+      "log": "Gpoland1[at]cinci[dot]rr[dot]com",
+      "deadline": "October 31, 2026"
+    },
+    {
+      "name": "Collegiate QSO Party",
+      "time": "0000Z, Oct 3 to 2359Z, Oct 4",
+      "mode": "CW, Phone, Digital",
+      "bands": "All, except WARC",
+      "exchange": "Collegiate: School Identifier + RS(T)",
+      "cw": true,
+      "rules": "https://collegiateqsoparty.com",
+      "log": "(see rules)",
+      "deadline": "October 31, 2026"
+    },
+    {
+      "name": "TRC DX Contest",
+      "time": "0600Z, Oct 3 to 1800Z, Oct 4",
       "mode": "CW, SSB",
-      "bands": "10m Only",
-      "exchange": "RS(T) + power",
-      "cw": true,
-      "rules": "https://www.frapr.org/",
-      "log": "eventos[at]frapr[dot]org",
-      "deadline": "2359Z September 27, 2026"
-    },
-    {
-      "name": "Scandinavian Activity Contest, CW",
-      "time": "1200Z, Sep 19 to 1200Z, Sep 20",
-      "mode": "CW",
-      "bands": "80, 40, 20, 15, 10m",
-      "exchange": "RST + Serial No.",
-      "cw": true,
-      "rules": "https://www.sactest.net/blog/scandinavian-activity-contest-2026-rules/",
-      "log": "http://www.sactest.net/robot/",
-      "deadline": "2359Z September 25, 2026"
-    },
-    {
-      "name": "Iowa QSO Party",
-      "time": "1400Z, Sep 19 to 0200Z, Sep 20",
-      "mode": "CW, Phone, Digital",
-      "bands": "All, except WARC and 60m",
-      "exchange": "IA: RS(T) + County",
-      "cw": true,
-      "rules": "http://www.w0yl.com/IAQP",
-      "log": "https://iaqp.contesting.com/iaqpsubmitlog.php",
-      "deadline": "0445Z October 20, 2026"
-    },
-    {
-      "name": "New Hampshire QSO Party",
-      "time": "1600Z, Sep 19 to 0400Z, Sep 20 and 1200Z-2200Z, Sep 20",
-      "mode": "CW, Phone, Digital",
-      "bands": "80, 40, 20, 15, 10m",
-      "exchange": "NH: RS(T) + county",
-      "cw": true,
-      "rules": "https://w1wqm.org/wp-content/uploads/2026/08/NHQP_Rules.pdf",
-      "log": "https://w1wqm.org/submit-log.php",
-      "deadline": "October 1, 2026"
-    },
-    {
-      "name": "Washington State Salmon Run",
-      "time": "1600Z, Sep 19 to 0700Z, Sep 20 and 1600Z-2400Z, Sep 20",
-      "mode": "CW, Phone",
-      "bands": "160, 80, 40, 20, 15, 10, 6m",
-      "exchange": "WA: RS(T) + County",
-      "cw": true,
-      "rules": "http://salmonrun.wwdxc.org/",
-      "log": "https://salmonrun.contesting.com/salmonsubmitlog.php",
-      "deadline": "October 4, 2026"
-    },
-    {
-      "name": "ARS Flight of the Bumblebees",
-      "time": "1700Z-2100Z, Sep 20",
-      "mode": "CW",
-      "bands": "40, 20, 15, 10m",
-      "exchange": "Home: RST + (state/province/country) + Power",
-      "cw": true,
-      "rules": "http://ars-qrp.com/FOBB/FOBB.html",
-      "log": "https://www.3830scores.com/",
-      "deadline": "October 4, 2026"
-    },
-    {
-      "name": "Run for the Bacon QRP Contest",
-      "time": "2300Z, Sep 20 to 0100Z, Sep 21",
-      "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
-      "exchange": "RST + (state/province/country) + (Member No./power)",
+      "exchange": "TRC Members: RST + Serial No. + \"TRC\"",
       "cw": true,
-      "rules": "http://qrpcontest.com/pigrun/",
-      "log": "http://qrpcontest.com/pigrun/autolog.php",
-      "deadline": "September 26, 2026"
+      "rules": "https://trcdx.org/rules-trc-dx/",
+      "log": "https://trcdx.org/upload-logs/",
+      "deadline": "1800Z October 11, 2026"
+    },
+    {
+      "name": "German Telegraphy Contest",
+      "time": "0700Z-1000Z, Oct 3",
+      "mode": "CW",
+      "bands": "80, 40m",
+      "exchange": "DL: RST + LDK",
+      "cw": true,
+      "rules": "https://www.agcw.de/contest/dtc/",
+      "log": "http://contest.agcw.de/dtc/",
+      "deadline": "October 17, 2026"
+    },
+    {
+      "name": "California QSO Party",
+      "time": "1600Z, Oct 3 to 2200Z, Oct 4",
+      "mode": "CW, Phone",
+      "bands": "160, 80, 40, 20, 15, 10m",
+      "exchange": "CA: Serial No. + County",
+      "cw": true,
+      "rules": "https://www.cqp.org/Rules.html",
+      "log": "http://robot.cqp.org/cqp/logsubmit-form.html",
+      "deadline": "2359Z October 19, 2026"
+    },
+    {
+      "name": "Peanut Power QRP Sprint",
+      "time": "2200Z-2359Z, Oct 4",
+      "mode": "CW, SSB",
+      "bands": "80, 40, 20m",
+      "exchange": "RS(T) + (state/province/country) + (peanut no./power output)",
+      "cw": true,
+      "rules": "http://www.nogaqrp.org/PeanutPower/rules.pdf",
+      "log": "pete[at]nogaqrp[dot]org",
+      "deadline": "October 21, 2026"
     },
     {
       "name": "K1USN Slow Speed Test",
-      "time": "0000Z-0100Z, Sep 21",
+      "time": "0000Z-0100Z, Oct 5",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Maximum 20 wpm",
       "cw": true,
       "rules": "http://www.k1usn.com/sst.html",
       "log": "http://www.3830scores.com",
-      "deadline": "2359Z September 23, 2026"
+      "deadline": "2359Z October 7, 2026"
     },
     {
       "name": "ICWC Medium Speed Test",
-      "time": "1300Z-1400Z, Sep 21",
+      "time": "1300Z-1400Z, Oct 5",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Name + QSO No.",
       "cw": true,
       "rules": "https://internationalcwcouncil.org/mst-contest/",
       "log": "http://www.3830scores.com",
-      "deadline": "0400Z September 24, 2026"
+      "deadline": "0400Z October 8, 2026"
     },
     {
       "name": "OK1WC Memorial (MWC)",
-      "time": "1630Z-1729Z, Sep 21",
+      "time": "1630Z-1729Z, Oct 5",
       "mode": "CW",
       "bands": "80, 40m",
       "exchange": "RST + Serial No.",
       "cw": true,
       "rules": "https://memorial-ok1wc.cz/index.php?page=rules2l",
       "log": "https://memorial-ok1wc.cz/index.php?page=logs",
-      "deadline": "0600Z September 25, 2026"
+      "deadline": "0600Z October 9, 2026"
+    },
+    {
+      "name": "RSGB 80m Autumn Series, CW",
+      "time": "1900Z-2030Z, Oct 5",
+      "mode": "CW",
+      "bands": "80m Only",
+      "exchange": "RST + Serial No.",
+      "cw": true,
+      "rules": "https://www.rsgbcc.org/hf/rules/2026/rautumn.shtml",
+      "log": "http://www.rsgbcc.org/cgi-bin/hfenter.pl",
+      "deadline": "2359Z October 8, 2026"
     },
     {
       "name": "ICWC Medium Speed Test",
-      "time": "1900Z-2000Z, Sep 21",
+      "time": "1900Z-2000Z, Oct 5",
       "mode": "CW",
       "bands": "160, 80, 40, 20, 15, 10m",
       "exchange": "Name + QSO No.",
       "cw": true,
-      "rules": "https://internationalcwcouncil.org/mst-contest/",
-      "log": "http://www.3830scores.com",
-      "deadline": "0400Z September 24, 2026"
+      "rules": "https://www.arrl.org/eme-contest",
+      "log": "https://contests.arrl.org/arrlemescoresubmission.php",
+      "deadline": "0400Z October 8, 2026"
     }
   ]
 }
