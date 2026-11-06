@@ -4,15 +4,8 @@
     <title>CW Contest Radar</title>
     <link>https://mashu.github.io/cw-contest-radar/</link>
     <description>Upcoming CW contests with exchanges and rules.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 14:44:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:22:45 GMT</lastBuildDate>
     <ttl>360</ttl>
-    <item>
-      <title>NS — 6 Nov 0230Z</title>
-      <link>https://mashu.github.io/cw-contest-radar/contests/nccc/</link>
-      <guid isPermaLink="false">nccc-20261106T023000Z</guid>
-      <pubDate>Fri, 06 Nov 2026 02:30:00 GMT</pubDate>
-      <description>NCCC Sprint. You send: 001 MATEUSZ R. Send serial + name + QTH (state/province/country). Very short 30-minute sprint. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://ncccsprint.com/</description>
-    </item>
     <item>
       <title>SST — 6 Nov 2000Z</title>
       <link>https://mashu.github.io/cw-contest-radar/contests/sst/</link>
@@ -1055,6 +1048,13 @@
       <guid isPermaLink="false">sst-20270108T200000Z</guid>
       <pubDate>Fri, 08 Jan 2027 20:00:00 GMT</pubDate>
       <description>K1USN Slow Speed Test. You send: MATEUSZ POL. Slow speed (keep it 20 wpm or under). Send name + your state/province/country. As DX you send name + country. Bands: 160, 80, 40, 20, 15, 10m. Rules: http://www.k1usn.com/sst.html</description>
+    </item>
+    <item>
+      <title>NAQP — 9 Jan 1800Z</title>
+      <link>https://mashu.github.io/cw-contest-radar/contests/naqp/</link>
+      <guid isPermaLink="false">naqp-20270109T180000Z</guid>
+      <pubDate>Sat, 09 Jan 2027 18:00:00 GMT</pubDate>
+      <description>North American QSO Party, CW. You send: MATEUSZ. W/VE send name + state/province. As DX outside North America you send just your name. Bands: 160, 80, 40, 20, 15, 10m. Rules: https://www.ncjweb.com/naqp-rules/</description>
     </item>
   </channel>
 </rss>
